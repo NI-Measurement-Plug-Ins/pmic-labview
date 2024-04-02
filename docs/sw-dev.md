@@ -20,6 +20,7 @@ Download and install the below packages in this [link](https://github.com/ni/mea
 ## Tested with:
 - Instrument Studio 2024 Q1
 - TestStand 2022 Q4
+- Semiconductor Device Control Add-On 2023 Q4
 
 ## Building NIPM packages
 To build NIPM packages for the measurement plugin, refer to the [this](build-plugin.md) document.

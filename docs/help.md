@@ -60,9 +60,9 @@ This workflow is applicable for all the PMIC measurements.
    Enter the expected nominal output voltage of the DUT. This value is used only for the calculation of load voltage deviation.
 
 
-## Adding a measurment step to TestStand 
+## Adding a  measurement step to TestStand 
 
-Follow the worflow below to automate the measurements using TestStand and monitor it from Instrument Studio.
+Follow the workflow below to automate the measurements using TestStand and monitor it from Instrument Studio.
 
 After adding measurement service into the Instrument Studio as explained above,
 

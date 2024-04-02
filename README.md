@@ -1,14 +1,14 @@
 # PMIC - LabVIEW
 
 "pmic-labview" is a MeasurementLink LabVIEW plugin for making measurements for Power Management IC's.
-This plugin supplies power to the DUT and sinks power from the DUT and validates the specifiactions of the DUT by performing measurements.
+ This plugin supplies power to the DUT and sinks power from the DUT and validates the specifications of the DUT by performing measurements.
 
 ## Key Features
 
  - Single channel measurements
    - Efficiency and Load Regulation
    - Line Regulation
-   - Load Transient 
+   - Load Transient Response
    - Ripple
 
  - Multi channel measurements
@@ -20,7 +20,7 @@ Click here for a detailed list of measurements and their functionality: [Measure
 Instrumentation:
 - NI Programmable Power Supply (NI 4151)
 - NI Electronic Load (NI 4051)
-- Digital Pattern Instrument (DPI) (note: the plugin does not include the DPI but it may be needed to communicate with the DUT)
+- Digital Pattern Instrument (NI 6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
 
 Tested hardware setup:
 - NI 4151
@@ -33,8 +33,8 @@ Install from NI Package Manager:
 
 - InstrumentStudio (2024 Q1 or higher)
 - Measurement Link (2024 Q1 or higher)
-- NI-DCPower (2023Q4 or higher)
-
+- NI-DCPower (2023 Q4 or higher)
+- NI SDC Add-On (2023 Q4 or higher) (note: only if using DPI for DUT communication)
 
 Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community.
 
