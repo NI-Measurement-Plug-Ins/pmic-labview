@@ -9,7 +9,7 @@ This service performs Line Regulation measurement.
 
    ![alt text](meas-images/line-reg-config.png)
 
-2. FR, RMS Levels, THD, THD+N, time domain graphs should be visible without any error.
+2. Line regulation graphs should be visible without any error.
 
    Line Regulation(V/V):
    ![alt text](meas-images/line-reg-load-volt.png)
