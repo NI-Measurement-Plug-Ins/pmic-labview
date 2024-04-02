@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Workflow
-This workflow is applicable for all the PMIC measurements
+This workflow is applicable for all the PMIC measurements.
 
 ### Adding a measurement panel to InstrumentStudio
 
@@ -19,7 +19,7 @@ This workflow is applicable for all the PMIC measurements
 1. Select "Power on the DUT" option from the 'Mode Of Operation' dropdown. Give appropriate resource name the DUT is connected to and run the measurement service with the default values.
    ![alt text](images/power-on-config.png)
 
-2. The status message will be shown if there is no error: 
+2. The status message will be shown if there is no error. 
    
    ![alt text](images/power-on-status.png)
 
@@ -31,32 +31,32 @@ This workflow is applicable for all the PMIC measurements
 
 ### Perform Measurement
 
-1. As the communication is established with the DUT, now select "Perform Measurement" option from the 'Mode of Operation' dropdown.
+1. As the communication is established with the DUT, now select "Perform Measurement" option from the 'Mode of Operation' dropdown. Give appropriate resource names the DUT is connected to and run the measurement service with the default values.
    
    ![alt text](images/perform-meas-efficiency.png)
 
 ### Powering OFF
 
-1. After performing the measurements, make sure to Power off the DUT by selecting the option from 'Mode Of Operation' dropdown. Give appropriate resource name the DUT is connected to and run the measurement service with the default values.
+1. After performing the measurements, make sure to Power off the DUT by selecting the option from 'Mode Of Operation' dropdown. 
    
    ![alt text](images/power-off-config.png)
 
-2. The status message will be shown if there is no error: 
+2. The status message will be shown if there is no error. 
    
    ![alt text](images/power-off-status.png)
 
 ## Common parameters in the UI
 
 1. DUT Setup Time:
-   Specifies the setup time of a DUT, the time required to load the DUT parameters and for the startup.
+   Specifies the setup time of a DUT, the time required to load the DUT parameters and for the DUT startup.
 
 2. Source Delay:
-   Specifies the time required for the source and load instruments to reach steady state after a setpoint change. This parameter can be minimized to reduce test time, but if it is too small the DUT will not have enough time to reach steady state.
+   Specifies the time required for the source and load instruments to reach steady state after a setpoint change. This parameter can be minimized to reduce test time, but if it is too small the DUT will not have enough time to reach the steady state.
 
 3. Aperture Time:
-   Specifies the amount of time the source and load instruments collect samples and average the samples together to form a single measurement. Longer aperture times increase test time but improve noise rejection.
+   Specifies the amount of time the source and load instruments collect samples and average the samples together to form a single measurement. Longer aperture time increases the test time but improves the noise rejection.
 
-4. Nominal Output Voltage (V)
+4. Nominal Output Voltage (V):
    Enter the expected nominal output voltage of the DUT. This value is used only for the calculation of load voltage deviation.
 
 
@@ -99,7 +99,7 @@ After adding measurement service into the Instrument Studio as explained above,
 
    ![alt text](images/instr-studio-results-from-ts.png)
 
-10. The same workflow of Power on the DUT, Perform Measurement, and Power off the DUT can be followed in TestStand also by adding three Measurement Steps along with the SDC steps. Make sure to add 
+10. The same workflow of Power on the DUT, Perform Measurement, and Power off the DUT can be followed in TestStand, by adding three Measurement Steps along with the SDC steps. Make sure to Power off the DUT. 
 
     ![alt text](images/teststand-measlink-steps.png)
 
