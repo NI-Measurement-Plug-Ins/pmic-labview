@@ -1,15 +1,45 @@
-# GitHub Repo Template
+# PMIC - LabVIEW
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+"pmic-labview" is a MeasurementLink LabVIEW plugin for making measurements for Power Management IC's.
+This plugin supplies power to the DUT and sinks power from the DUT and validates the specifiactions of the DUT by performing measurements.
 
-## Using GitHub Repo Template
+## Key Features
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+ - Single channel measurements
+   - Efficiency and Load Regulation
+   - Line Regulation
+   - Load Transient 
+   - Ripple
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+ - Multi channel measurements
+
+Click here for a detailed list of measurements and their functionality: [Measurement List](docs/measurements/meas-index.md)
+
+## Hardware Setup
+![Hardware setup](docs/images/hw-setup.png)
+Instrumentation:
+- NI Programmable Power Supply (NI 4151)
+- NI Electronic Load (NI 4051)
+- Digital Pattern Instrument (DPI) (note: the plugin does not include the DPI but it may be needed to communicate with the DUT)
+
+Tested hardware setup:
+- NI 4151
+- NI 4051
+- NI 6570/1
+
+## Software Dependencies
+
+Install from NI Package Manager:
+
+- InstrumentStudio (2024 Q1 or higher)
+- Measurement Link (2024 Q1 or higher)
+- NI-DCPower (2023Q4 or higher)
+
+
+Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community.
+
+## Getting Started
+When you are ready to start using the software, check out [this](docs/help.md).
+
+## Contributing
+Use the instructions in [software development](docs/sw-dev.md) for setting up a development environment and overview of the code.
