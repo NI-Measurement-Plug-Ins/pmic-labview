@@ -1,4 +1,4 @@
-# Line Regulation
+# Load Transient Response
 This service performs Load Transient Response measurement.
 
 ## InstrumentStudio Panel
