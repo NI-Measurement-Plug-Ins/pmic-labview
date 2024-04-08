@@ -59,7 +59,7 @@
 1. To perform the measurements with larger sweep points, increase the 'Timeout' value of 'Wait For Event With Channels' VI.
    ![Timeout value](../meas-images/increase-timeout.png)
    
-2. To see the results faster, remove the 'Wait(ms)' function or decrease the 'Wait' function value in the 'Perfrom Measurements' subVI.
+2. To see the results faster, remove the 'Wait(ms)' function or decrease the 'Wait' function value in the 'Perform Measurements' subVI.
    ![Wait function value](../meas-images/decrease-wait-value.png)
 
 
