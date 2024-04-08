@@ -182,7 +182,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="pmic_rippleMeasurement" Type="EXE">
+			<Item Name="Ripple_PMIC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2636897A-2C25-44A2-B9CF-5A93D7DF79FB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8D3369F4-5EBC-458F-A10B-35B0771A3272}</Property>
@@ -190,25 +190,26 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DC46DB60-438D-4945-8706-F9C38DFCEEC8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">pmic_rippleMeasurement</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Ripple_PMIC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/pmic_rippleMeasurement</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Ripple_PMIC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87C52527-5442-4FCA-94C8-A4ED5ED2F0C3}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">pmic_rippleMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/pmic_rippleMeasurement/pmic_rippleMeasurement.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Ripple_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/Ripple_PMIC.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/pmic_rippleMeasurement/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AF93094C-5F79-4F5E-BB2D-EF5B4B502587}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B9B63E24-3013-4D0A-8250-5D60841E016F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ripple_PMIC.lvlib/Get Measurement Details.vi</Property>
@@ -247,12 +248,12 @@
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">pmic_rippleMeasurement</Property>
-				<Property Name="TgtF_internalName" Type="Str">pmic_rippleMeasurement</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Ripple_PMIC</Property>
+				<Property Name="TgtF_internalName" Type="Str">Ripple_PMIC</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
-				<Property Name="TgtF_productName" Type="Str">pmic_rippleMeasurement</Property>
+				<Property Name="TgtF_productName" Type="Str">Ripple_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{103930FA-C51F-48B0-9EA3-E22C1621FF38}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">pmic_rippleMeasurement.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Ripple_PMIC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
