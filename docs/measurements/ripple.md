@@ -1,4 +1,4 @@
-# Ripple Measurement
+# Ripple
 This service performs Ripple measurement.
 
 ## Hardware Setup
