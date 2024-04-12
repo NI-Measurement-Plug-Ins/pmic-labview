@@ -13,8 +13,7 @@ This service performs Ripple measurement.
 
    ![alt text](meas-images/ripple-config.png)
 
-2. Run the measurement. The ripple values are calculated and displayed in table and plotted in the graph.
+2. Run the measurement. The Ripple Voltage values are displayed on the graph. The RMS and Peak-to-Peak values of ripple are calculated and displayed in the table along with voltage and current values of source and load devices.
    
-   Ripple:
    ![alt text](meas-images/ripple-meas-results.png)
 
