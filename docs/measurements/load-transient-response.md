@@ -16,7 +16,7 @@ This service performs Load Transient Response measurement.
 3. Note that the measurement is in 'Custom' transient response by default. To change the transient response value, click on either Slow, Normal, or Fast. The SourceAdapt parameters will be updated accordingly. 
    Change any of the SourceAdapt parameters for custom transient response.
   
-   ![alt text](meas-images/load-tran-meas-results.png)
+   ![alt text](meas-images/load-tran-sourceadapt.png)
 
 4. Make sure to select the 'Run' button instead of 'Run continuously' when any other mode of operation (Power on/off the DUT) is selected.
 
