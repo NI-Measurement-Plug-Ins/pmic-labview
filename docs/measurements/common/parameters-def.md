@@ -34,6 +34,16 @@
 5. No. of Points:
    Specifies the total number of points in the sweep. (Equally spaced setpoints from start voltage to stop voltage.)
 
+6. Voltage Gain Bandwidth:
+   Specifies the SourceAdapt gain-bandwidth parameter for the voltage control loop. 
+   Higher GBW values allow for faster transients but less stability, while lower GBW values result in slower transients but more stability.
+
+7. Voltage Compensation Frequency:
+   Specifies the SourceAdapt compensation frequency parameter for the voltage control loop. It is the frequency at which a pole-zero pair is added to the system.
+
+8. Voltage Pole-Zero Ratio:
+   Specifies the SourceAdapt pole-zero ratio parameter for the voltage control loop. It is the ratio of pole and zero frequencies.
+
 ## Load configuration
 
 1. Voltage Limit Range:
@@ -53,6 +63,16 @@
    
 6. Pts/Pts per Decade: 
    If the sweep type is Linear, specifies the total number of points in the sweep. For Logarithmic sweep type, specifies the number of points per decade.
+
+7. Current Gain Bandwidth:
+   Specifies the SourceAdapt gain-bandwidth parameter for the current control loop. 
+   Higher GBW values allow for faster transients but less stability, while lower GBW values result in slower transients but more stability.
+
+8. Current Compensation Frequency:
+   Specifies the SourceAdapt compensation frequency parameter for the current control loop. It is the frequency at which a pole-zero pair is added to the system.
+
+9. Current Pole-Zero Ratio:
+    Specifies the SourceAdapt pole-zero ratio parameter for the current control loop. It is the ratio of pole and zero frequencies.
 
 ## Tips
 
