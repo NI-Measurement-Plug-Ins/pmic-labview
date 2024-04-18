@@ -23,7 +23,7 @@ This workflow is applicable for all the PMIC measurements.
    
    ![alt text](images/power-on-status.png)
 
-### Communication with the DUT
+### Communication with the DUT (if needed)
 
 1. Now that the DUT is powered ON, configure the DUT settings either by using SDC panel or from the native GUI of the DUT.
 

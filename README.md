@@ -2,7 +2,7 @@
 
  This MeasurementLink LabVIEW plugin makes measurements for Power Management IC's.
  
- The tests supplies power to the DUT and sinks power from the DUT and validates the specifications of the DUT by performing measurements.
+ The tests supplies power to the DUT and sinks power from the DUT and validates the DUT's specifications by performing measurements that are common for PMIC's.
 
 ## Key Features
 
@@ -20,14 +20,14 @@ Click here for a detailed list of measurements and their functionality: [Measure
 ## Hardware Setup
 ![Hardware setup](docs/images/hw-setup.png)
 Instrumentation:
-- NI Programmable Power Supply (NI 4151)
-- NI Electronic Load (NI 4051)
-- Digital Pattern Instrument (NI 6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
+- NI Programmable Power Supply (PXIe-4151)
+- NI Electronic Load (PXIe-4051)
+- Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
 
 Tested hardware setup:
-- NI 4151
-- NI 4051
-- NI 6570/1
+- PXIe-4151
+- PXIe-4051
+- PXIe-6570/1
 
 ## Software Dependencies
 (*This section is applicable if you only want to use the pre-compiled plug-ins. If you want to open the source code, go to [software development](docs/sw-dev.md).*)  
