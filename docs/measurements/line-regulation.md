@@ -1,6 +1,9 @@
 # Line Regulation
 This service performs Line Regulation measurement.
 
+## Hardware Setup
+   ![alt text](meas-images/hw-setup.png)
+
 ## InstrumentStudio Panel
 
 ### Usage

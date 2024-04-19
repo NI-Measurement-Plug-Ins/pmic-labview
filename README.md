@@ -17,9 +17,8 @@
 
 Click here for a detailed list of measurements and their functionality: [Measurement List](docs/measurements/meas-index.md)
 
-## Hardware Setup
-![Hardware setup](docs/images/hw-setup.png)
-Instrumentation:
+## Hardware Dependencies
+
 - NI Programmable Power Supply (PXIe-4151)
 - NI Electronic Load (PXIe-4051)
 - Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)

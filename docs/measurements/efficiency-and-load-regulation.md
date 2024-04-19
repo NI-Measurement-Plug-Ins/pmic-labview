@@ -1,6 +1,9 @@
 # Efficiency And Load Regulation
 This service performs Efficiency and Load Regulation measurements.
 
+## Hardware Setup
+   ![alt text](meas-images/hw-setup.png)
+
 ## InstrumentStudio Panel
 
 ### Usage

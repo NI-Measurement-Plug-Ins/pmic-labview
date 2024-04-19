@@ -1,6 +1,9 @@
 # Load Transient Response
 This service performs Load Transient Response measurement.
 
+## Hardware Setup
+   ![alt text](meas-images/hw-setup.png)
+
 ## InstrumentStudio Panel
 
 ### Usage
