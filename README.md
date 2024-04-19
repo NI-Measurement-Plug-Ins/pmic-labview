@@ -22,13 +22,13 @@ Click here for a detailed list of measurements and their functionality: [Measure
 - NI Programmable Power Supply (PXIe-4151)
 - NI Electronic Load (PXIe-4051)
 - Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
-- NI Oscilloscope (PXIe-5162) (note: required for Ripple measurement)
+- NI Oscilloscope (PXI-5122) (note: required for Ripple measurement)
 
 Tested hardware setup:
 - PXIe-4151
 - PXIe-4051
 - PXIe-6570/1
-- PXIe-5162
+- PXI-5122
 
 ## Software Dependencies
 (*This section is applicable if you only want to use the pre-compiled plug-ins. If you want to open the source code, go to [software development](docs/sw-dev.md).*)  
