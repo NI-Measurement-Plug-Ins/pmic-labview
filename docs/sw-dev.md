@@ -7,6 +7,7 @@ Install the below softwares and packages from NIPM
 - LabVIEW 64-bit (2021 SP1 or higher)
 - Measurement Link (2024 Q1 or higher)
 - NI-DCPower (2023 Q4 or higher)
+- NI-SCOPE (2023 Q4 or higher)
 
 ## VIPM packages
 
