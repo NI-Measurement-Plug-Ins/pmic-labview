@@ -958,6 +958,7 @@
                 </PackageRelationship>
             </PackageRelationships>
             <ProductName>MyProduct</ProductName>
+            <ReleaseNotes>Supports Efficiency and Load Regulation, Line Regulation, Load Transient Response, Ripple Measurements along with Single Point Channel Ganging. </ReleaseNotes>
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-pmic-labview</Synopsis>
