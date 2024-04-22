@@ -74,6 +74,17 @@
 9. Current Pole-Zero Ratio:
     Specifies the SourceAdapt pole-zero ratio parameter for the current control loop. It is the ratio of pole and zero frequencies.
 
+## Scope configuration
+
+1. Sample rate:
+   Specifies the sample rate of the scope instrument. Please refer to the device [specs](https://www.ni.com/docs/en-US/bundle/pxi-5122-specs/page/specs.html).
+
+2. Acquisition time:
+   Specifies the time duration for which scope acquires samples.
+
+3. Probe attenuation:
+   Specifies probe attenuation value of scope instrument.
+
 ## Tips
 
 1. To perform the measurements with larger sweep points, increase the 'Timeout' value of 'Wait For Event With Channels' VI.
