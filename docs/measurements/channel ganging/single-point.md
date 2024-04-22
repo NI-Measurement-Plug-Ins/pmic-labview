@@ -1,4 +1,4 @@
-# Single Point
+# Single Point Channel Ganging
 This service performs Single Point Ganging/Stacking.
 
 ## Hardware Setup
@@ -28,6 +28,8 @@ This service performs Single Point Ganging/Stacking.
 ## Tested with
 - 2xPXIe-4151
 - 2xPXIe-4051
+
+(Note: Tested with 2 power supplies and 2 E-load's connected in different chassis in parallel configuration as per the hardware setup diagram.)
 
 
 
