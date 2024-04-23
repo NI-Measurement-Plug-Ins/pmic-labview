@@ -925,6 +925,206 @@
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
+                <DistributionItem z:Id="i136" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC</DestinationRelativePath>
+                    <Name>Ripple_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i137" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Measurement UI.vi</DestinationRelativePath>
+                    <Name>Measurement UI.vi</Name>
+                    <SourceItem z:Ref="i36" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i138" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Ripple_PMIC.aliases</DestinationRelativePath>
+                    <Name>Ripple_PMIC.aliases</Name>
+                    <SourceItem z:Ref="i37" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i139" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Ripple_PMIC.exe</DestinationRelativePath>
+                    <Name>Ripple_PMIC.exe</Name>
+                    <SourceItem z:Ref="i38" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i140" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Ripple_PMIC.ini</DestinationRelativePath>
+                    <Name>Ripple_PMIC.ini</Name>
+                    <SourceItem z:Ref="i39" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i141" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Ripple_PMIC.lvlib</DestinationRelativePath>
+                    <Name>Ripple_PMIC.lvlib</Name>
+                    <SourceItem z:Ref="i40" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i142" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Ripple_PMIC.serviceconfig</DestinationRelativePath>
+                    <Name>Ripple_PMIC.serviceconfig</Name>
+                    <SourceItem z:Ref="i41" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i143" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i144" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i145" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i32" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i146" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i147" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i33" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i148" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i149" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i34" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i150" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i151" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Ripple_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i35" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i152" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i153" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Measurement UI.vi</DestinationRelativePath>
+                    <Name>Measurement UI.vi</Name>
+                    <SourceItem z:Ref="i46" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i154" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging.lvlib</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging.lvlib</Name>
+                    <SourceItem z:Ref="i47" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i155" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.aliases</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.aliases</Name>
+                    <SourceItem z:Ref="i48" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i156" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.exe</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.exe</Name>
+                    <SourceItem z:Ref="i49" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i157" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.ini</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.ini</Name>
+                    <SourceItem z:Ref="i50" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i158" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.serviceconfig</Name>
+                    <SourceItem z:Ref="i51" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i159" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i160" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i161" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i42" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i162" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i163" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i43" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i164" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i165" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i44" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i166" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i167" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i45" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
             </DistributionItems>
             <Name>PMIC MeasurementLink Plug-In (LabVIEW)</Name>
             <OutputDirectory>Packages</OutputDirectory>
@@ -932,23 +1132,23 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i136">
+            <BuildStatus z:Id="i168">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-pmic-labview_1.0.0.2_windows_x64.nipkg</FileName>
-                <Version>1.0.0.2</Version>
+                <FileName>community-pmic-labview_1.0.0.3_windows_x64.nipkg</FileName>
+                <Version>1.0.0.3</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <Description>Measurements for PMIC using MeasurementLink</Description>
             <DisplayName>PMIC MeasurementLink Plug-In (LabVIEW)</DisplayName>
-            <FileName>community-pmic-labview_1.0.0.3_windows_x64.nipkg</FileName>
+            <FileName>community-pmic-labview_1.0.0.4_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/pmic-labview</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <PackageName>community-pmic-labview</PackageName>
             <PackageRelationships>
-                <PackageRelationship z:Id="i137">
+                <PackageRelationship z:Id="i169">
                     <Constraint>LaterOrEqual</Constraint>
                     <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
                     <PackageName>ni-labview-2021-runtime-engine</PackageName>
@@ -962,12 +1162,12 @@
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-pmic-labview</Synopsis>
-            <Version>1.0.0.3</Version>
+            <Version>1.0.0.4</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i138">
+        <DistributionGroup z:Id="i170">
             <Distributions>
                 <Distribution z:Ref="i83" />
             </Distributions>
