@@ -145,7 +145,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Multi-Channel Output Voltage Accuracy_PMIC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87CC363B-5160-4BC7-8FBC-3A1C85BD31FC}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-ChannelOutputVoltageAccuracy_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/Multi-ChannelOutputVoltageAccuracy_PMIC.exe</Property>
@@ -156,7 +156,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C716BC24-E930-4700-AFEB-43A8ABBD17DF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73E9CECF-2B7D-47C2-B261-08FD896AA792}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Multi-Channel Output Voltage Accuracy_PMIC.lvlib/Get Measurement Details.vi</Property>
