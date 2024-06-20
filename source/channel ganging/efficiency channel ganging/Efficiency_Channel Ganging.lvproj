@@ -13,7 +13,6 @@
 		<Item Name="shared" Type="Folder">
 			<Item Name="Build Trigger Terminal.vi" Type="VI" URL="../../../shared/Build Trigger Terminal.vi"/>
 			<Item Name="Calclulate Linear Sweep.vi" Type="VI" URL="../../../shared/Calclulate Linear Sweep.vi"/>
-			<Item Name="Calculate Current Limit.vi" Type="VI" URL="../../../shared/Calculate Current Limit.vi"/>
 			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
 		</Item>
 		<Item Name="shared subVIs" Type="Folder" URL="../../shared subVIs">
@@ -153,33 +152,34 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Efficiency_Channel Ganging" Type="EXE">
+			<Item Name="Efficiency_Channel Ganging_PMIC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E94CD720-E885-41FD-AF39-A135C77F5D87}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E21700A9-7CDC-446A-960F-4384003CADDC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DAC9BCA1-89A0-489A-B6FE-F22C227F67C9}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Efficiency_Channel Ganging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Efficiency_Channel Ganging</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{29B613CA-3F03-4D3C-BAE0-C33BBC97BF68}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Efficiency_ChannelGanging.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Efficiency_Channel Ganging/Efficiency_ChannelGanging.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Efficiency_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC/Efficiency_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Efficiency_Channel Ganging/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33EE9BCE-A67E-4404-B1B1-67A348CEC4F6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4068F14D-3495-4693-AD86-D9487E940071}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -217,14 +217,13 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Efficiency_Channel Ganging</Property>
-				<Property Name="TgtF_internalName" Type="Str">Efficiency_Channel Ganging</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">Efficiency_Channel Ganging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_internalName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
+				<Property Name="TgtF_productName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DF17ADB9-2894-4628-93DE-663B692FD587}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Efficiency_ChannelGanging.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Efficiency_Channel Ganging_PMIC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
