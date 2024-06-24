@@ -4,7 +4,9 @@ Single channel measurements
  - [Line Regulation](line-regulation.md)
  - [Load Transient Response](load-transient-response.md)
  - [Ripple](ripple.md)
- - [Multi-Channel Output Voltage ACCuracy](multi-channel-output-voltage-accuracy.md)
+ - [Multi-Channel Output Voltage Accuracy](multi-channel-output-voltage-accuracy.md)
    
 Channel Ganging
   - [Single Point](channel%20ganging/single-point.md)
+  - [Sweep](channel%20ganging/sweep.md)
+  - [Efficiency](channel%20ganging/efficiency.md)

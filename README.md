@@ -15,6 +15,8 @@
 
  - Channel Ganging
    - Single point channel ganging
+   - Sweep channel ganging
+   - Efficiency channel ganging measurement
 
 Click here for a detailed list of measurements and their functionality: [Measurement List](docs/measurements/meas-index.md)
 
