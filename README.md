@@ -11,6 +11,7 @@
    - Line Regulation
    - Load Transient Response
    - Ripple
+   - Multi-Channel Output Voltage Accuracy
 
  - Channel Ganging
    - Single point channel ganging
