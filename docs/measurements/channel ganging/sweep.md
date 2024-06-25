@@ -8,7 +8,7 @@ This service performs Sweep Ganging/Stacking.
 
 ### Usage
 
-1. Select the appropriate source resource names of all the instruments which are stacked or ganged. One of the instruments will be master device and others will be slave devices. Update the other parameters as per the system configuration.
+1. Select the appropriate source resource names of all the instruments which are stacked or ganged. One of the instruments will be master device and others will be slave devices. Update other parameters as per the system configuration.
    ![alt text](../meas-images/sweep-source-config.png)
 
 2. Similarly, update the parameters in the load configuration. For both the PPS and E-Load devices to be in sync, provide source trigger and measure trigger of master PPS to master E-Load.
@@ -29,7 +29,7 @@ This service performs Sweep Ganging/Stacking.
    Source I-V Sweep:
    ![alt text](../meas-images/sweep-source-results.png)
 
-6. Similarly load devices sweep can be run independantly without a DUT, Enable button should be 'ON' in load config and it should be 'OFF' in source config. The trigger controls can be left empty.
+6. Similarly load devices sweep can be run independently without a DUT, Enable button should be 'ON' in load config and it should be 'OFF' in source config. The trigger controls can be left empty.
    ![alt text](../meas-images/sweep-source-disable.png)
 
    ![alt text](../meas-images/sweep-load-enable.png)
