@@ -156,7 +156,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{375388AB-3A17-4342-9BD1-2B3F45333898}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D53F6F57-3176-4E2A-8027-0AFACF431118}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Multi-Channel Output Voltage Accuracy_PMIC.lvlib/Get Measurement Details.vi</Property>
@@ -189,7 +189,11 @@
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Multi-Channel Output Voltage Accuracy_PMIC.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Multi-Channel Output Voltage Accuracy_PMIC</Property>
 				<Property Name="TgtF_internalName" Type="Str">Multi-Channel Output Voltage Accuracy_PMIC</Property>
