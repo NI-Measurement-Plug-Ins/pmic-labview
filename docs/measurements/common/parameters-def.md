@@ -85,6 +85,12 @@
 3. Probe attenuation:
    Specifies probe attenuation value of scope instrument.
 
+## Known Issues
+
+1.	The index of Array controls in “Measurement Configuration.ctl” should be less than 16. The data won’t be passed properly if the index is >=16.  [grpc-labview issue](https://github.com/ni/grpc-labview/issues/351)
+2.	When Copying the configuration from InstrumentStudio to TestStand, ‘Inf’ value is not passed properly, it is copied as 8 to TestStand.
+
+
 ## Tips
 
 1. To perform the measurements with larger sweep points, increase the 'Timeout' value of 'Wait For Event With Channels' VI.
