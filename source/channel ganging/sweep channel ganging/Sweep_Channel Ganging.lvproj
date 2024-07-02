@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="shared" Type="Folder">
-			<Item Name="Calclulate Linear Sweep.vi" Type="VI" URL="../../../shared/Calclulate Linear Sweep.vi"/>
+			<Item Name="Calculate Linear Sweep.vi" Type="VI" URL="../../../shared/Calculate Linear Sweep.vi"/>
 			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
 		</Item>
 		<Item Name="shared subVIs" Type="Folder" URL="../../shared subVIs">
