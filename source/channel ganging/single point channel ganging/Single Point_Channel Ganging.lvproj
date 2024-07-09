@@ -10,10 +10,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="shared" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="UI" Type="Folder">
+				<Item Name="controls" Type="Folder">
+					<Item Name="view.ctl" Type="VI" URL="../../../shared/UI/controls/view.ctl"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="shared subVIs" Type="Folder" URL="../../shared subVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Single Point_Channel Ganging.lvlib" Type="Library" URL="../Single Point_Channel Ganging/Single Point_Channel Ganging.lvlib"/>
+		<Item Name="Single Point_Channel Ganging_UI.lvlib" Type="Library" URL="../Single Point_Channel Ganging UI/Single Point_Channel Ganging_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -163,7 +172,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D3A3C8D-38EA-41FC-BC58-D3C8FFFC1C22}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Point_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC/Single Point_Channel Ganging_PMIC.exe</Property>
@@ -174,7 +183,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{847F4B18-2177-4860-9B6A-2D50D25A8DB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B88D3D4-6BD1-4B1B-B937-5D53A61A858A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -208,8 +217,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging_UI.lvlib/Measurement UI.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
@@ -219,6 +227,47 @@
 				<Property Name="TgtF_productName" Type="Str">Single Point_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D2DDC758-FBFC-4741-B5B2-BFB083CFAAB6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Single Point_Channel Ganging_PMIC.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Single Point_Channel Ganging_PMIC_UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E95B8565-9109-4C39-AE51-7CA17E1B185C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E2EAFE59-E8FC-4F4F-AEF9-662157DE9BEC}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Single Point_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Single Point_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B88D3D4-6BD1-4B1B-B937-5D53A61A858A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging_UI.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
+				<Property Name="TgtF_productName" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CF8B65B0-EBF2-4B0C-9D7B-403E464F7061}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Single Point_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
