@@ -1,8 +1,8 @@
 # PMIC - LabVIEW
 
- This MeasurementLink LabVIEW plugin makes measurements for Power Management IC's.
+ These MeasurementLink LabVIEW plugins makes measurements for Power Management IC's.
  
- The tests supplies power to the DUT and sinks power from the DUT and validates the DUT's specifications by performing measurements that are common for PMIC's.
+ The tests supply power to a DUT and sinks power from the DUT and validates the DUT's specifications by performing measurements that are common for PMIC's.
 
 ## Key Features
 
@@ -13,7 +13,7 @@
    - Ripple
    - Multi-Channel Output Voltage Accuracy
 
- - Channel Ganging
+ - Channel Ganging measurements
    - Single point channel ganging
    - Sweep channel ganging
    - Efficiency channel ganging measurement
@@ -24,10 +24,10 @@ Click here for a detailed list of measurements and their functionality: [Measure
 
 - NI Programmable Power Supply (PXIe-4151)
 - NI Electronic Load (PXIe-4051)
-- Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
 - NI Oscilloscope (PXI-5122) (note: required for Ripple measurement)
+- [optional] NI Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
 
-Tested hardware setup:
+Validated hardware for these plugins:
 - PXIe-4151
 - PXIe-4051
 - PXIe-6570/1
@@ -46,7 +46,7 @@ Install from NI Package Manager:
 Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
 
 ## Getting Started
-When you are ready to start using the software, check out [this](docs/help.md).
+When you are ready to start using the software, reference the [getting started documentation](docs/help.md).
 
 ## Contributing
 Use the instructions in [software development](docs/sw-dev.md) for setting up a development environment and overview of the code.
