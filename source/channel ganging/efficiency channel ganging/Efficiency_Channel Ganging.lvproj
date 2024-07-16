@@ -11,6 +11,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="shared" Type="Folder">
+			<Item Name="UI" Type="Folder">
+				<Item Name="controls" Type="Folder">
+					<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/SourceAdapt Parameters.ctl"/>
+				</Item>
+				<Item Name="dialogs" Type="Folder">
+					<Item Name="Custom Transient Response for Sweep &amp; Single Point.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Sweep &amp; Single Point.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Build Trigger Terminal.vi" Type="VI" URL="../../../shared/Build Trigger Terminal.vi"/>
 			<Item Name="Calculate Linear Sweep.vi" Type="VI" URL="../../../shared/Calculate Linear Sweep.vi"/>
 			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
@@ -19,6 +27,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Efficiency_Channel Ganging.lvlib" Type="Library" URL="../Efficiency_Channel Ganging/Efficiency_Channel Ganging.lvlib"/>
+		<Item Name="Efficiency_Channel Ganging_UI.lvlib" Type="Library" URL="../Efficiency_Channel Ganging UI/Efficiency_Channel Ganging_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -52,7 +61,9 @@
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit Range.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit.vi"/>
+				<Item Name="niDCPower Create Advanced Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence.vi"/>
 				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
+				<Item Name="niDCPower Delete Advanced Sequence With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Delete Advanced Sequence With Channels.vi"/>
 				<Item Name="niDCPower Digital Edge - Edge.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Digital Edge - Edge.ctl"/>
 				<Item Name="niDCPower Disable Pulse Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Pulse Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Sequence Advance Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Sequence Advance Trigger With Channels.vi"/>
@@ -69,6 +80,7 @@
 				<Item Name="niDCPower Reset Device.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset Device.vi"/>
 				<Item Name="niDCPower Reset With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset With Channels.vi"/>
 				<Item Name="niDCPower Sense.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sense.ctl"/>
+				<Item Name="niDCPower Sequence Attribute Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sequence Attribute Type.ctl"/>
 				<Item Name="niDCPower Set Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Set Sequence.vi"/>
 				<Item Name="niDCPower Source Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Source Mode.ctl"/>
 				<Item Name="niDCPower Wait For Event - Event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Wait For Event - Event.ctl"/>
@@ -168,7 +180,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{29B613CA-3F03-4D3C-BAE0-C33BBC97BF68}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Efficiency_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC/Efficiency_Channel Ganging_PMIC.exe</Property>
@@ -179,7 +191,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4068F14D-3495-4693-AD86-D9487E940071}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B051A1CD-52C0-4041-AA53-ADBB347EB15A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -212,11 +224,7 @@
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_internalName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
@@ -224,6 +232,47 @@
 				<Property Name="TgtF_productName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DF17ADB9-2894-4628-93DE-663B692FD587}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Efficiency_Channel Ganging_PMIC.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Efficiency_Channel Ganging_PMIC_UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4EB5022B-CE5D-41B0-8331-27484434C114}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6C170454-CEFD-4D9B-B8A4-1BE121E428E3}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Efficiency_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Efficiency_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7ECD7D35-E2E0-48C2-9633-A04906F3B57B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging_UI.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
+				<Property Name="TgtF_productName" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C488AF19-6A6C-42AC-839D-8F2C0EC7EC05}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Efficiency_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
