@@ -11,6 +11,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="shared" Type="Folder">
+			<Item Name="UI" Type="Folder">
+				<Item Name="controls" Type="Folder">
+					<Item Name="Multiple SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/Multiple SourceAdapt Parameters.ctl"/>
+					<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/SourceAdapt Parameters.ctl"/>
+					<Item Name="view.ctl" Type="VI" URL="../../../shared/UI/controls/view.ctl"/>
+				</Item>
+				<Item Name="dialogs" Type="Folder">
+					<Item Name="Custom Transient Response for Setpoints.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Setpoints.vi"/>
+					<Item Name="Custom Transient Response for Sweep &amp; Single Point.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Sweep &amp; Single Point.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Calculate Linear Sweep.vi" Type="VI" URL="../../../shared/Calculate Linear Sweep.vi"/>
 			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
 		</Item>
@@ -18,6 +29,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sweep_Channel Ganging.lvlib" Type="Library" URL="../Sweep_Channel Ganging/Sweep_Channel Ganging.lvlib"/>
+		<Item Name="Sweep_Channel Ganging_UI.lvlib" Type="Library" URL="../Sweep_Channel Ganging UI/Sweep_Channel Ganging_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -51,7 +63,9 @@
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit Range.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit.vi"/>
+				<Item Name="niDCPower Create Advanced Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence.vi"/>
 				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
+				<Item Name="niDCPower Delete Advanced Sequence With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Delete Advanced Sequence With Channels.vi"/>
 				<Item Name="niDCPower Digital Edge - Edge.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Digital Edge - Edge.ctl"/>
 				<Item Name="niDCPower Disable Pulse Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Pulse Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Sequence Advance Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Sequence Advance Trigger With Channels.vi"/>
@@ -68,6 +82,7 @@
 				<Item Name="niDCPower Reset Device.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset Device.vi"/>
 				<Item Name="niDCPower Reset With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset With Channels.vi"/>
 				<Item Name="niDCPower Sense.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sense.ctl"/>
+				<Item Name="niDCPower Sequence Attribute Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sequence Attribute Type.ctl"/>
 				<Item Name="niDCPower Set Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Set Sequence.vi"/>
 				<Item Name="niDCPower Source Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Source Mode.ctl"/>
 				<Item Name="niDCPower Wait For Event - Event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Wait For Event - Event.ctl"/>
@@ -178,7 +193,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Sweep_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{38A77E62-EF0E-4546-A1EF-5FB942B240EC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{61E7FB0E-1797-4DED-B134-779694D2FF78}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sweep_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -211,11 +226,7 @@
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Sweep_Channel Ganging.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Sweep_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_internalName" Type="Str">Sweep_Channel Ganging_PMIC</Property>
@@ -223,6 +234,47 @@
 				<Property Name="TgtF_productName" Type="Str">Sweep_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DF17ADB9-2894-4628-93DE-663B692FD587}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Sweep_Channel Ganging_PMIC.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Sweep_Channel Ganging_PMIC_UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B3CBD046-5923-49D9-9C5B-4F4ED3F9EFEA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sweep_Channel Ganging_PMIC_UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{153143D4-451C-4ADD-8519-3EACF61E4B82}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Sweep_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Sweep_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{61E7FB0E-1797-4DED-B134-779694D2FF78}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sweep_Channel Ganging_UI.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Sweep_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Sweep_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
+				<Property Name="TgtF_productName" Type="Str">Sweep_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0088BC00-2954-460F-BAA2-15B3A47E141B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Sweep_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
