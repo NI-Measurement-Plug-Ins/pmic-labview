@@ -5,9 +5,12 @@ If you want to commit changes to the repo, we recommend you use the current vers
 Install the below softwares and packages from NIPM
 
 - LabVIEW 64-bit (2021 SP1 or higher)
-- Measurement Link (2024 Q1 or higher)
 - NI-DCPower (2023 Q4 or higher)
 - NI-SCOPE (2023 Q4 or higher)
+- Instrument Studio 2024 Q1
+- TestStand 2022 Q4
+- Semiconductor Device Control Add-On 2023 Q4
+- Measurement Link (2024 Q1 or higher)
 
 ## VIPM packages
 
