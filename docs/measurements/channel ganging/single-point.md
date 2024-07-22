@@ -16,14 +16,10 @@ This service performs Single Point Ganging/Stacking.
 
 3. Run the measurement. The system level and individual voltages and currents are plotted in the graphs.
    
-   System Measurements:
-   ![alt text](../meas-images/single-point-system-meas.png)
+   ![alt text](../meas-images/single-point-meas-results.png)
 
-   Source Results:
-   ![alt text](../meas-images/single-point-source-results.png)
-
-   Load Results:
-   ![alt text](../meas-images/single-point-load-results.png)
+4. To view the individual voltages and currents, click on the eye button and check the plots checkbox.
+   ![alt text](../meas-images/single-point-meas-results-plot-visible.png) 
 
 4. We can run the source and load independently as well. To run configuration of only source devices, make sure that the Enable button is 'ON' in the source configuration and is in 'OFF' position in the load configuration.
    ![alt text](../meas-images/single-point-source-enable.png)
