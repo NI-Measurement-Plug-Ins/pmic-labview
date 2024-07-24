@@ -37,8 +37,7 @@ Validated hardware for these plugins:
 (*This section is applicable if you only want to use the pre-compiled plug-ins. If you want to open the source code, go to [software development](docs/sw-dev.md).*)  
 Install from NI Package Manager:
 
-- InstrumentStudio (2024 Q1 or higher)
-- Measurement Link (2024 Q1 or higher)
+- InstrumentStudio Pro (2024 Q3 or higher)
 - NI-DCPower (2023 Q4 or higher)
 - NI SDC Add-On (2023 Q4 or higher) (note: only if using DPI for DUT communication)
 - NI-SCOPE (2023 Q4 or higher) (note: if using Ripple measurement)

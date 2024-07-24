@@ -3,9 +3,9 @@
 ## Workflow
 This workflow is applicable for all the PMIC measurements.
 
-### Adding a measurement panel to InstrumentStudio
+### Adding a measurement panel to InstrumentStudio Pro
 
-1. Open InstrumentStudio
+1. Open InstrumentStudio Pro
    ![alt text](images/instr-studio-open-is.png)
 
 2. Click Manual Layout, and select required measurement under the collection (for e.g., Efficiency and Load Regulation under PMIC) and 'Create Large Panel' from dropdown. Click OK.
@@ -59,7 +59,7 @@ After adding measurement service into the Instrument Studio as explained above,
 
    ![alt text](images/teststand-open-seq.png)
 
-2. Insert a 'Measurement' step under MeasurementLink in Insertion palette or by selecting Insert Step > MeasurementLink > Measurement in right click menu.
+2. Insert a 'Measurement' step under MeasurementLink in Insertion palette or by selecting Insert Step > InstrumentStudio > Measurement in right click menu.
    Rename the step as required and choose the required measurement in Step settings.
 
    ![alt text](images/teststand-insert-measlink-step.png)
