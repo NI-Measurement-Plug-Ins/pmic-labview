@@ -5,7 +5,7 @@ This workflow is applicable for all the Channel Ganging measurements.
 
 ### Adding a measurement panel to InstrumentStudio
 
-1. Open InstrumentStudio
+1. Open InstrumentStudio Pro
    ![alt text](images/instr-studio-open-is.png)
 
 2. Click Manual Layout, and select required measurement under the collection (for e.g., 'Single Point' under PMIC - GANGING/STACKING) and 'Create Large Panel' from dropdown. Click OK.
