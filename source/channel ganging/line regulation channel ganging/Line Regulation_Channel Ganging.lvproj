@@ -170,7 +170,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Line Regulation_Channel Ganging" Type="EXE">
+			<Item Name="Line Regulation_Channel Ganging_PMIC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{02380DCB-31F2-47E6-82EB-104CEC2C3FAC}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6CE84693-0BB7-41D5-9399-01E86E6159EA}</Property>
@@ -178,26 +178,26 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{138A64B7-32AA-4837-997D-74E80E94B416}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Line Regulation_Channel Ganging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Line Regulation_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Line Regulation_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Line Regulation_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{41AE4175-BA51-44CD-A71B-5F8C834E2691}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">LineRegulation_ChannelGanging.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/LineRegulation_ChannelGanging.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">LineRegulation_ChannelGanging_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Line Regulation_Channel Ganging_PMIC/LineRegulation_ChannelGanging_PMIC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Line Regulation_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{43042A5C-2358-47D0-8E59-E8C922BA80FF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B6895ED-7546-477B-8609-39020F9E755D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Line Regulation_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -232,12 +232,12 @@
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Line Regulation_Channel Ganging</Property>
-				<Property Name="TgtF_internalName" Type="Str">Line Regulation_Channel Ganging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Line Regulation_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_internalName" Type="Str">Line Regulation_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
-				<Property Name="TgtF_productName" Type="Str">Line Regulation_Channel Ganging</Property>
+				<Property Name="TgtF_productName" Type="Str">Line Regulation_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{50AC24D1-C70F-4778-8AC1-85F66AE84BE4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">LineRegulation_ChannelGanging.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LineRegulation_ChannelGanging_PMIC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Line Regulation_Channel Ganging_PMIC_UI" Type="Packed Library">
@@ -250,7 +250,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A658BA67-CD25-4FA5-A111-7E46DA578696}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Line Regulation_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Line Regulation_Channel Ganging_UI.lvlibp</Property>
@@ -262,7 +262,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{750CC35F-3C78-4B22-9A04-9E15C5FE3A12}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B6895ED-7546-477B-8609-39020F9E755D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Line Regulation_Channel Ganging_UI.lvlib</Property>
