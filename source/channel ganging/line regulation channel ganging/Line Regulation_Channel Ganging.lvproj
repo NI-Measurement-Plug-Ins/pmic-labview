@@ -181,6 +181,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Line Regulation_Channel Ganging</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Line Regulation_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
@@ -196,7 +197,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7286DF0F-DCDB-4003-8CC3-7D8A6BA01974}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{43042A5C-2358-47D0-8E59-E8C922BA80FF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Line Regulation_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
