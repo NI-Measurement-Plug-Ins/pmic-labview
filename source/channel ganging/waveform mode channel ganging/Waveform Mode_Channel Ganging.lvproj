@@ -14,9 +14,9 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="UI" Type="Folder">
 				<Item Name="controls" Type="Folder">
-					<Item Name="view.ctl" Type="VI" URL="../../../shared/UI/controls/view.ctl"/>
 					<Item Name="Multiple SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/Multiple SourceAdapt Parameters.ctl"/>
 					<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/SourceAdapt Parameters.ctl"/>
+					<Item Name="view.ctl" Type="VI" URL="../../../shared/UI/controls/view.ctl"/>
 				</Item>
 				<Item Name="dialogs" Type="Folder">
 					<Item Name="Custom Transient Response for Setpoints.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Setpoints.vi"/>
@@ -27,8 +27,8 @@
 		<Item Name="shared subVIs" Type="Folder" URL="../../shared subVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Single Point_Channel Ganging.lvlib" Type="Library" URL="../Single Point_Channel Ganging/Single Point_Channel Ganging.lvlib"/>
-		<Item Name="Single Point_Channel Ganging_UI.lvlib" Type="Library" URL="../Single Point_Channel Ganging UI/Single Point_Channel Ganging_UI.lvlib"/>
+		<Item Name="Waveform Mode_Channel Ganging UI.lvlib" Type="Library" URL="../Waveform Mode_Channel Ganging UI/Waveform Mode_Channel Ganging UI.lvlib"/>
+		<Item Name="Waveform Mode_Channel Ganging.lvlib" Type="Library" URL="../Waveform Mode_Channel Ganging/Waveform Mode_Channel Ganging.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -62,6 +62,9 @@
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit Range.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit.vi"/>
+				<Item Name="niDCPower Create Advanced Sequence Commit Step With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence Commit Step With Channels.vi"/>
+				<Item Name="niDCPower Create Advanced Sequence Step With Channels (Poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence Step With Channels (Poly).vi"/>
+				<Item Name="niDCPower Create Advanced Sequence Step With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence Step With Channels.vi"/>
 				<Item Name="niDCPower Create Advanced Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence.vi"/>
 				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
 				<Item Name="niDCPower Delete Advanced Sequence With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Delete Advanced Sequence With Channels.vi"/>
@@ -166,93 +169,90 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Single Point_Channel Ganging_PMIC" Type="EXE">
+			<Item Name="Waveform Mode_Channel Ganging_PMIC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{DBD160A4-EF7C-4A78-A7E6-4DF384C99D85}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{31C60CFA-5831-498E-91FD-4703F73D1EBE}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{359E80B3-6408-4426-94E2-B5FCEE624E79}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5B1D3703-F73A-4251-B62C-F209C35294A4}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{FDD3CABD-8062-4B3A-960F-DC865D10A07E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Single Point_Channel Ganging_PMIC</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{62FC623C-B249-41A9-812B-229D1E6E667C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Waveform Mode_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Waveform Mode_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{7D3A3C8D-38EA-41FC-BC58-D3C8FFFC1C22}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C121169D-D88B-4AB4-9913-24C196516973}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Single Point_Channel Ganging_PMIC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC/Single Point_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Waveform Mode_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Waveform Mode_Channel Ganging_PMIC/Waveform Mode_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Waveform Mode_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2B88D3D4-6BD1-4B1B-B937-5D53A61A858A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20481CA1-4DA6-4EE3-A89B-1479433B92B6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Run Service.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging.lvlib/Run Service.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Window run-time position</Property>
 				<Property Name="Source[7].properties[0].value" Type="Str">Minimized</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging_UI.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Single Point_Channel Ganging_PMIC</Property>
-				<Property Name="TgtF_internalName" Type="Str">Single Point_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Waveform Mode_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_internalName" Type="Str">Waveform Mode_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
-				<Property Name="TgtF_productName" Type="Str">Single Point_Channel Ganging_PMIC</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D2DDC758-FBFC-4741-B5B2-BFB083CFAAB6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Single Point_Channel Ganging_PMIC.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">Waveform Mode_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{28C208C2-32C7-4F90-BED2-BE99E3D34931}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Waveform Mode_Channel Ganging_PMIC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Single Point_Channel Ganging_PMIC_UI" Type="Packed Library">
+			<Item Name="Waveform Mode_Channel Ganging_PMIC_UI" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{E95B8565-9109-4C39-AE51-7CA17E1B185C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2EEE88D1-B6AB-43F8-96CC-D499E3B15DA1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Waveform Mode_Channel Ganging_PMIC_UI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E2EAFE59-E8FC-4F4F-AEF9-662157DE9BEC}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C188FE4F-FED4-4FA3-881D-40D2992B2CF4}</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Single Point_Channel Ganging_UI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Single Point_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Waveform Mode_Channel Ganging UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Waveform Mode_Channel Ganging UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -261,10 +261,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2B88D3D4-6BD1-4B1B-B937-5D53A61A858A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{267C733E-4BBB-459C-ABF3-D85CBACE45E9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging_UI.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Waveform Mode_Channel Ganging UI.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -272,12 +272,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
-				<Property Name="TgtF_internalName" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Waveform Mode_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Waveform Mode_Channel Ganging_PMIC_UI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
-				<Property Name="TgtF_productName" Type="Str">Single Point_Channel Ganging_PMIC_UI</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{CF8B65B0-EBF2-4B0C-9D7B-403E464F7061}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Single Point_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">Waveform Mode_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{226F0D53-991B-4D37-B97C-7F8098314D0D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Waveform Mode_Channel Ganging UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

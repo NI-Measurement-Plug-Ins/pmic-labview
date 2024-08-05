@@ -4,17 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Advanced" Type="Folder">
-		<Item Name="Build Assets" Type="Folder">
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../Advanced/Build Assets/Post-Build Action.vi"/>
-		</Item>
-		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
-	</Item>
-	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
-	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
-	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
-	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
-	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
-	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
-	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
+	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
