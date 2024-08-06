@@ -13,21 +13,26 @@
 		<Item Name="shared" Type="Folder">
 			<Item Name="UI" Type="Folder">
 				<Item Name="controls" Type="Folder">
+					<Item Name="Multiple SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/Multiple SourceAdapt Parameters.ctl"/>
 					<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/SourceAdapt Parameters.ctl"/>
+					<Item Name="view.ctl" Type="VI" URL="../../../shared/UI/controls/view.ctl"/>
 				</Item>
 				<Item Name="dialogs" Type="Folder">
+					<Item Name="Custom Transient Response for Setpoints.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Setpoints.vi"/>
 					<Item Name="Custom Transient Response for Sweep &amp; Single Point.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Sweep &amp; Single Point.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Build Trigger Terminal.vi" Type="VI" URL="../../../shared/Build Trigger Terminal.vi"/>
+			<Item Name="Calculate Current Limit.vi" Type="VI" URL="../../../shared/Calculate Current Limit.vi"/>
 			<Item Name="Calculate Linear Sweep.vi" Type="VI" URL="../../../shared/Calculate Linear Sweep.vi"/>
 			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
+			<Item Name="Calculate Voltage Deviation.vi" Type="VI" URL="../../../shared/Calculate Voltage Deviation.vi"/>
 		</Item>
 		<Item Name="shared subVIs" Type="Folder" URL="../../shared subVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Efficiency_Channel Ganging.lvlib" Type="Library" URL="../Efficiency_Channel Ganging/Efficiency_Channel Ganging.lvlib"/>
-		<Item Name="Efficiency_Channel Ganging_UI.lvlib" Type="Library" URL="../Efficiency_Channel Ganging UI/Efficiency_Channel Ganging_UI.lvlib"/>
+		<Item Name="Eff And Load Reg_Channel Ganging.lvlib" Type="Library" URL="../Eff And Load Reg_Channel Ganging/Eff And Load Reg_Channel Ganging.lvlib"/>
+		<Item Name="Eff And Load Reg_Channel Ganging_UI.lvlib" Type="Library" URL="../Eff And Load Reg_Channel Ganging UI/Eff And Load Reg_Channel Ganging_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -165,7 +170,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Efficiency_Channel Ganging_PMIC" Type="EXE">
+			<Item Name="Eff and Load Reg_Channel Ganging_PMIC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E94CD720-E885-41FD-AF39-A135C77F5D87}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E21700A9-7CDC-446A-960F-4384003CADDC}</Property>
@@ -173,53 +178,53 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DAC9BCA1-89A0-489A-B6FE-F22C227F67C9}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LR/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{29B613CA-3F03-4D3C-BAE0-C33BBC97BF68}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Efficiency_Channel Ganging_PMIC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC/Efficiency_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LR/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Efficiency_Channel Ganging_PMIC/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LR/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B051A1CD-52C0-4041-AA53-ADBB347EB15A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{58BA26A3-F849-401A-86CD-2478C9B4A9EF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging.lvlib/Run Service.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Run Service.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Window run-time position</Property>
 				<Property Name="Source[7].properties[0].value" Type="Str">Minimized</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
@@ -227,28 +232,28 @@
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
-				<Property Name="TgtF_internalName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Eff and Load Reg_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_internalName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
-				<Property Name="TgtF_productName" Type="Str">Efficiency_Channel Ganging_PMIC</Property>
+				<Property Name="TgtF_productName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DF17ADB9-2894-4628-93DE-663B692FD587}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Efficiency_Channel Ganging_PMIC.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Efficiency_Channel Ganging_PMIC_UI" Type="Packed Library">
+			<Item Name="Eff and Load Reg_Channel Ganging_PMIC_UI" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{4EB5022B-CE5D-41B0-8331-27484434C114}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC_UI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C170454-CEFD-4D9B-B8A4-1BE121E428E3}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Efficiency_Channel Ganging_UI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Efficiency_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Eff And Load Reg_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Eff And Load Reg_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -257,10 +262,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7ECD7D35-E2E0-48C2-9633-A04906F3B57B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FCE9C9E-2A72-429F-B597-9364CC035A81}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Efficiency_Channel Ganging_UI.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging_UI.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -268,12 +273,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
-				<Property Name="TgtF_internalName" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Eff and Load Reg_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC_UI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
-				<Property Name="TgtF_productName" Type="Str">Efficiency_Channel Ganging_PMIC_UI</Property>
+				<Property Name="TgtF_productName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC_UI</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C488AF19-6A6C-42AC-839D-8F2C0EC7EC05}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Efficiency_Channel Ganging_UI.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Eff And Load Reg_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
