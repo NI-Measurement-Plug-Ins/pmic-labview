@@ -20,7 +20,7 @@ This workflow is applicable for all the Channel Ganging measurements.
 
    ![alt text](images/custom-transient-response-button.png)
 
-2. A dialog box will be launched with default SourceAdapt paramerters. 
+2. A dialog box will be launched with default SourceAdapt parameters. 
    
    ![alt text](images/custom-transient-response-dialog.png)
 
