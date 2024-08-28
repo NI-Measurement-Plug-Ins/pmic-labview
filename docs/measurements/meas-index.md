@@ -9,4 +9,5 @@ Single channel measurements
 Channel Ganging
   - [Single Point](channel%20ganging/single-point.md)
   - [Sweep](channel%20ganging/sweep.md)
+  - [Waveform Mode](channel%20ganging/waveform-mode.md)
   - [Efficiency](channel%20ganging/efficiency.md)
