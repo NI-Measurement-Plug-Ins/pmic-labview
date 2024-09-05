@@ -21,12 +21,12 @@ This service performs Single Point Ganging/Stacking.
 4. To view the individual voltages and currents, click on the eye button and check the plots checkbox.
    ![alt text](../meas-images/single-point-meas-results-plot-visible.png) 
 
-4. We can run the source and load independently as well. To run configuration of only source devices, make sure that the Enable button is 'ON' in the source configuration and is in 'OFF' position in the load configuration.
+5. We can run the source and load independently as well. To run configuration of only source devices, make sure that the Enable button is 'ON' in the source configuration and is in 'OFF' position in the load configuration.
    ![alt text](../meas-images/single-point-source-enable.png)
 
    ![alt text](../meas-images/single-point-load-disable.png)
 
-5. Similarly load devices can be run independently without a DUT, Enable button should be 'ON' in load config and it should be 'OFF' in source config. The trigger controls can be left empty.
+6. Similarly load devices can be run independently without a DUT, Enable button should be 'ON' in load config and it should be 'OFF' in source config. The trigger controls can be left empty.
    ![alt text](../meas-images/single-point-source-disable.png)
 
    ![alt text](../meas-images/single-point-load-enable.png)
