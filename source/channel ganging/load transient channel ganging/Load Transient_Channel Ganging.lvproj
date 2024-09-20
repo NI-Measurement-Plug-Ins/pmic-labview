@@ -10,14 +10,37 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="shared" Type="Folder">
+			<Item Name="UI" Type="Folder">
+				<Item Name="controls" Type="Folder">
+					<Item Name="Multiple SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/Multiple SourceAdapt Parameters.ctl"/>
+					<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/SourceAdapt Parameters.ctl"/>
+					<Item Name="view.ctl" Type="VI" URL="../../../shared/UI/controls/view.ctl"/>
+				</Item>
+				<Item Name="dialogs" Type="Folder">
+					<Item Name="Custom Transient Response for Setpoints.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Setpoints.vi"/>
+					<Item Name="Custom Transient Response for Sweep &amp; Single Point.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Sweep &amp; Single Point.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Build Trigger Terminal.vi" Type="VI" URL="../../../shared/Build Trigger Terminal.vi"/>
+			<Item Name="Calculate Current Limit.vi" Type="VI" URL="../../../shared/Calculate Current Limit.vi"/>
+			<Item Name="Calculate Linear Sweep.vi" Type="VI" URL="../../../shared/Calculate Linear Sweep.vi"/>
+			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
+			<Item Name="Calculate Voltage Deviation.vi" Type="VI" URL="../../../shared/Calculate Voltage Deviation.vi"/>
+		</Item>
+		<Item Name="shared subVIs" Type="Folder" URL="../../shared subVIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Load Transient_Channel Ganging.lvlib" Type="Library" URL="../Load Transient_Channel Ganging/Load Transient_Channel Ganging.lvlib"/>
 		<Item Name="Load Transient_Channel Ganging_UI.lvlib" Type="Library" URL="../Load Transient_Channel Ganging UI/Load Transient_Channel Ganging_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
+				<Item Name="niDCPower Aperture Time Units.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Aperture Time Units.ctl"/>
 				<Item Name="niDCPower Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Close.vi"/>
 				<Item Name="niDCPower Commit With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Commit With Channels.vi"/>
 				<Item Name="niDCPower Commit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Commit.vi"/>
+				<Item Name="niDCPower Configure Aperture Time.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Aperture Time.vi"/>
 				<Item Name="niDCPower Configure Current Level Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Level Range.vi"/>
 				<Item Name="niDCPower Configure Current Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Level.vi"/>
 				<Item Name="niDCPower Configure Current Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Limit Range.vi"/>
@@ -43,20 +66,26 @@
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit Range.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit.vi"/>
+				<Item Name="niDCPower Create Advanced Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Create Advanced Sequence.vi"/>
 				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
+				<Item Name="niDCPower Delete Advanced Sequence With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Delete Advanced Sequence With Channels.vi"/>
 				<Item Name="niDCPower Digital Edge - Edge.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Digital Edge - Edge.ctl"/>
 				<Item Name="niDCPower Disable Pulse Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Pulse Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Sequence Advance Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Sequence Advance Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Shutdown Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Shutdown Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Source Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Source Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Start Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Start Trigger With Channels.vi"/>
+				<Item Name="niDCPower Export Signal - Signal.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Export Signal - Signal.ctl"/>
+				<Item Name="niDCPower Export Signal With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Export Signal With Channels.vi"/>
 				<Item Name="niDCPower Fetch Multiple.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Fetch Multiple.vi"/>
 				<Item Name="niDCPower Initialize With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Channels.vi"/>
 				<Item Name="niDCPower Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initiate.vi"/>
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
 				<Item Name="niDCPower Output Function.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Output Function.ctl"/>
+				<Item Name="niDCPower Reset Device.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset Device.vi"/>
 				<Item Name="niDCPower Reset With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset With Channels.vi"/>
 				<Item Name="niDCPower Sense.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sense.ctl"/>
+				<Item Name="niDCPower Sequence Attribute Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sequence Attribute Type.ctl"/>
 				<Item Name="niDCPower Set Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Set Sequence.vi"/>
 				<Item Name="niDCPower Source Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Source Mode.ctl"/>
 				<Item Name="niDCPower Wait For Event - Event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Wait For Event - Event.ctl"/>
@@ -108,6 +137,7 @@
 				<Item Name="ni.measurementlink.measurement.v1.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v1/ni.measurementlink.measurement.v1.api.lvlib"/>
 				<Item Name="ni.measurementlink.measurement.v2.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.api.lvlib"/>
 				<Item Name="ni.measurementlink.sessionmanagement.v1.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.api.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -131,44 +161,13 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="buildTerminalName.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/subvi/buildTerminalName.vi"/>
-			<Item Name="Custom Transient Response for Sweep &amp; Single Point.vi" Type="VI" URL="../../../shared/UI/dialogs/Custom Transient Response for Sweep &amp; Single Point.vi"/>
-			<Item Name="Get Channel List.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/subvi/Get Channel List.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NIDCPower_channel_ganging - abort.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Control/NIDCPower_channel_ganging - abort.vi"/>
-			<Item Name="NIDCPower_channel_ganging - check channel list.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/NIDCPower_channel_ganging - check channel list.vi"/>
-			<Item Name="NIDCPower_channel_ganging - close.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/NIDCPower_channel_ganging - close.vi"/>
-			<Item Name="NIDCPower_channel_ganging - commit.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Control/NIDCPower_channel_ganging - commit.vi"/>
-			<Item Name="NIDCPower_channel_ganging - confgure sequence.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - confgure sequence.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure current level range.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current level range.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure current level.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current level.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure current limit range.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current limit range.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure current limit.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current limit.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure output function.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure output function.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure sense.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Measure/NIDCPower_channel_ganging - configure sense.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure source mode.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure source mode.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure triggers.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - configure triggers.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure voltage level range.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage level range.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure voltage level.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage level.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure voltage limit range.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage limit range.vi"/>
-			<Item Name="NIDCPower_channel_ganging - configure voltage limit.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage limit.vi"/>
-			<Item Name="NIDCPower_channel_ganging - ctl - channel def.ctl" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - channel def.ctl"/>
-			<Item Name="NIDCPower_channel_ganging - ctl - channel mode.ctl" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - channel mode.ctl"/>
-			<Item Name="NIDCPower_channel_ganging - ctl - ganged config.ctl" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - ganged config.ctl"/>
-			<Item Name="NIDCPower_channel_ganging - ctl - ganged session.ctl" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - ganged session.ctl"/>
-			<Item Name="NIDCPower_channel_ganging - fetch multiple.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Measure/NIDCPower_channel_ganging - fetch multiple.vi"/>
-			<Item Name="NIDCPower_channel_ganging - initialize.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/NIDCPower_channel_ganging - initialize.vi"/>
-			<Item Name="NIDCPower_channel_ganging - initiate.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Control/NIDCPower_channel_ganging - initiate.vi"/>
-			<Item Name="NIDCPower_channel_ganging - output connected.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - output connected.vi"/>
-			<Item Name="NIDCPower_channel_ganging - output enabled.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - output enabled.vi"/>
-			<Item Name="NIDCPower_channel_ganging - reset.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Utility/NIDCPower_channel_ganging - reset.vi"/>
-			<Item Name="NIDCPower_channel_ganging - wait for event.vi" Type="VI" URL="../../../../../../Users/upatel/OneDrive - Emerson/Desktop/S!/source/channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - wait for event.vi"/>
-			<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../../../shared/UI/controls/SourceAdapt Parameters.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Load Transient_Channel Ganging_PMIC" Type="EXE">
@@ -187,7 +186,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Load Transient_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7FC2EFB-C093-4C0B-BF28-A186561D4FE9}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LoadTransient_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Load Transient_Channel Ganging_PMIC/LoadTransient_Channel Ganging_PMIC.exe</Property>
@@ -198,7 +197,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Load Transient_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6049EF7D-0B1F-4FAB-94E1-6C32ED5B332E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{38BE5D30-8DB0-4EFC-87BD-D59426AB1C53}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Load Transient_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -251,7 +250,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5F4C895-D779-4E83-930A-51198A22BDAD}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Load Transient_Channel Ganging_PMIC_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Load Transient_Channel Ganging_PMIC_UI.lvlibp</Property>
@@ -263,7 +262,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6049EF7D-0B1F-4FAB-94E1-6C32ED5B332E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{38BE5D30-8DB0-4EFC-87BD-D59426AB1C53}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Load Transient_Channel Ganging_UI.lvlib</Property>
