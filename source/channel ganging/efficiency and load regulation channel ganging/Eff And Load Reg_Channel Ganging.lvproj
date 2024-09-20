@@ -182,22 +182,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LR/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{29B613CA-3F03-4D3C-BAE0-C33BBC97BF68}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LR/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LR/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{58BA26A3-F849-401A-86CD-2478C9B4A9EF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E52BB15B-E107-45FA-9EE5-C7D6789E1CB8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
