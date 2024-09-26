@@ -10,6 +10,8 @@
    - Efficiency and Load Regulation
    - Line Regulation
    - Load Transient Response
+   - Line Transient Response
+   - PSRR
    - Ripple
    - Multi-Channel Output Voltage Accuracy
 
@@ -17,7 +19,9 @@
    - Single point channel ganging
    - Sweep channel ganging
    - Waveform mode channel ganging
-   - Efficiency channel ganging measurement
+   - Efficiency and Load Regulation channel ganging measurement
+   - Load Transient Response
+   - Line Regulation
 
 Click here for a detailed list of measurements and their functionality: [Measurement List](docs/measurements/meas-index.md)
 
@@ -26,6 +30,7 @@ Click here for a detailed list of measurements and their functionality: [Measure
 - NI Programmable Power Supply (PXIe-4151)
 - NI Electronic Load (PXIe-4051)
 - NI Oscilloscope (PXI-5122) (note: required for Ripple measurement)
+- Cables (Current rated: 50A continous)
 - [optional] NI Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
 
 Validated hardware for these plugins:
