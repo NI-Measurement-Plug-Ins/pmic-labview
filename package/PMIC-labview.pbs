@@ -519,227 +519,281 @@
         </SourceItem>
         <SourceItem z:Id="i88">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\BuiltUI\PSRR_PMIC_UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i89">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i90">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i91">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i92">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Measurement UI.vi</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i93">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.aliases</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\PSRR_PMIC.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i94">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.exe</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\PSRR_PMIC.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i95">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.ini</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\PSRR_PMIC.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i96">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.lvlib</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\PSRR_PMIC.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i97">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.serviceconfig</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i98">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\BuiltUI\Single Point_Channel Ganging_UI.lvlibp</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i99">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i100">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i101">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Measurement UI.vi</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i102">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i103">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.aliases</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i104">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.exe</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i105">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.ini</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.lvlib</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i106">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.serviceconfig</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Ripple_PMIC.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i107">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\BuiltUI\Sweep_Channel Ganging_UI.lvlibp</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\BuiltUI\Single Point_Channel Ganging_UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i108">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i109">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i110">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i111">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i112">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.aliases</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i113">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.exe</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i114">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.ini</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i115">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.serviceconfig</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i116">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\BuiltUI\Waveform Mode_Channel Ganging UI.lvlibp</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\BuiltUI\Sweep_Channel Ganging_UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i117">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i118">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i119">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i120">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i121">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.aliases</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i122">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.exe</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i123">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.ini</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i124">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.serviceconfig</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i125">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\BuiltUI\Waveform Mode_Channel Ganging UI.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i126">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i127">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i128">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i129">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i130">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i131">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i132">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i133">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.serviceconfig</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i134">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -747,7 +801,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i126">
+        <SourceItem z:Id="i135">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -755,7 +809,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i127">
+        <SourceItem z:Id="i136">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -763,7 +817,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i128">
+        <SourceItem z:Id="i137">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -771,7 +825,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i129">
+        <SourceItem z:Id="i138">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\BuiltUI</RelativePath>
             <DependentItems>
@@ -779,7 +833,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i130">
+        <SourceItem z:Id="i139">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -787,7 +841,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i131">
+        <SourceItem z:Id="i140">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -795,7 +849,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i132">
+        <SourceItem z:Id="i141">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -803,7 +857,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i133">
+        <SourceItem z:Id="i142">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -811,7 +865,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i134">
+        <SourceItem z:Id="i143">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency And Load Regulation_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -819,7 +873,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i135">
+        <SourceItem z:Id="i144">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency And Load Regulation_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -827,7 +881,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i136">
+        <SourceItem z:Id="i145">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency And Load Regulation_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -835,7 +889,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i137">
+        <SourceItem z:Id="i146">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency And Load Regulation_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -843,7 +897,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i138">
+        <SourceItem z:Id="i147">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\BuiltUI</RelativePath>
             <DependentItems>
@@ -851,7 +905,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i139">
+        <SourceItem z:Id="i148">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -859,7 +913,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i140">
+        <SourceItem z:Id="i149">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -867,7 +921,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i141">
+        <SourceItem z:Id="i150">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -875,7 +929,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i142">
+        <SourceItem z:Id="i151">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -883,7 +937,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i143">
+        <SourceItem z:Id="i152">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -891,7 +945,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i144">
+        <SourceItem z:Id="i153">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -899,7 +953,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i145">
+        <SourceItem z:Id="i154">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -907,7 +961,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i146">
+        <SourceItem z:Id="i155">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -915,7 +969,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i147">
+        <SourceItem z:Id="i156">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Transient Response_PMIC\BuiltUI</RelativePath>
             <DependentItems>
@@ -923,7 +977,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i148">
+        <SourceItem z:Id="i157">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Transient Response_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -931,7 +985,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i149">
+        <SourceItem z:Id="i158">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Transient Response_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -939,7 +993,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i150">
+        <SourceItem z:Id="i159">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Transient Response_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -947,7 +1001,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i151">
+        <SourceItem z:Id="i160">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Transient Response_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -955,7 +1009,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i152">
+        <SourceItem z:Id="i161">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient Response_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -963,7 +1017,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i153">
+        <SourceItem z:Id="i162">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient Response_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -971,7 +1025,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i154">
+        <SourceItem z:Id="i163">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient Response_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -979,7 +1033,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i155">
+        <SourceItem z:Id="i164">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient Response_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -987,7 +1041,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i156">
+        <SourceItem z:Id="i165">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\BuiltUI</RelativePath>
             <DependentItems>
@@ -995,7 +1049,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i157">
+        <SourceItem z:Id="i166">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -1003,7 +1057,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i158">
+        <SourceItem z:Id="i167">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -1011,7 +1065,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i159">
+        <SourceItem z:Id="i168">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -1019,7 +1073,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i160">
+        <SourceItem z:Id="i169">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -1027,7 +1081,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i161">
+        <SourceItem z:Id="i170">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -1035,7 +1089,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i162">
+        <SourceItem z:Id="i171">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -1043,7 +1097,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i163">
+        <SourceItem z:Id="i172">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -1051,7 +1105,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i164">
+        <SourceItem z:Id="i173">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -1059,183 +1113,201 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i165">
+        <SourceItem z:Id="i174">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\Linux</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\BuiltUI</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i88" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i166">
+        <SourceItem z:Id="i175">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i89" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i167">
+        <SourceItem z:Id="i176">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win32</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i90" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i168">
+        <SourceItem z:Id="i177">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win64</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i91" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i169">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\BuiltUI</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i98" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i170">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i99" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i171">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i100" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i172">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i101" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i173">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i102" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i174">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\BuiltUI</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i107" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i175">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i108" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i176">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i109" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i177">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i110" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
         <SourceItem z:Id="i178">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i111" />
+                <SourceItem z:Ref="i92" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i179">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\BuiltUI</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i116" />
+                <SourceItem z:Ref="i97" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i180">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i117" />
+                <SourceItem z:Ref="i98" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i181">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win32</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i118" />
+                <SourceItem z:Ref="i99" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i182">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries\Win64</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i119" />
+                <SourceItem z:Ref="i100" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i183">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\BuiltUI</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i120" />
+                <SourceItem z:Ref="i107" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i184">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Crosstalk_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i125" />
-                <SourceItem z:Ref="i126" />
-                <SourceItem z:Ref="i127" />
-                <SourceItem z:Ref="i128" />
+                <SourceItem z:Ref="i108" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i185">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i130" />
-                <SourceItem z:Ref="i131" />
-                <SourceItem z:Ref="i132" />
-                <SourceItem z:Ref="i133" />
+                <SourceItem z:Ref="i109" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i186">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Efficiency And Load Regulation_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i110" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i187">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i111" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i188">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\BuiltUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i116" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i189">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i117" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i190">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i118" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i191">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i119" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i192">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i120" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i193">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\BuiltUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i125" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i194">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i126" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i195">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i127" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i196">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i128" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i197">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i129" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i198">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Crosstalk_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i134" />
                 <SourceItem z:Ref="i135" />
@@ -1244,9 +1316,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i187">
+        <SourceItem z:Id="i199">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i139" />
                 <SourceItem z:Ref="i140" />
@@ -1255,9 +1327,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i188">
+        <SourceItem z:Id="i200">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Line Regulation_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Efficiency And Load Regulation_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i143" />
                 <SourceItem z:Ref="i144" />
@@ -1266,9 +1338,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i189">
+        <SourceItem z:Id="i201">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Line Transient Response_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i148" />
                 <SourceItem z:Ref="i149" />
@@ -1277,9 +1349,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i190">
+        <SourceItem z:Id="i202">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Load Transient Response_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Line Regulation_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i152" />
                 <SourceItem z:Ref="i153" />
@@ -1288,9 +1360,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i191">
+        <SourceItem z:Id="i203">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Line Transient Response_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i157" />
                 <SourceItem z:Ref="i158" />
@@ -1299,9 +1371,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i192">
+        <SourceItem z:Id="i204">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Load Transient Response_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i161" />
                 <SourceItem z:Ref="i162" />
@@ -1310,20 +1382,20 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i193">
+        <SourceItem z:Id="i205">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Ripple_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i165" />
                 <SourceItem z:Ref="i166" />
                 <SourceItem z:Ref="i167" />
                 <SourceItem z:Ref="i168" />
+                <SourceItem z:Ref="i169" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i194">
+        <SourceItem z:Id="i206">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i170" />
                 <SourceItem z:Ref="i171" />
@@ -1332,9 +1404,9 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i195">
+        <SourceItem z:Id="i207">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\PSRR_PMIC\Libraries</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i175" />
                 <SourceItem z:Ref="i176" />
@@ -1343,18 +1415,51 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i196">
+        <SourceItem z:Id="i208">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries</RelativePath>
+            <RelativePath>..\builds\Ripple_PMIC\Libraries</RelativePath>
             <DependentItems>
+                <SourceItem z:Ref="i179" />
                 <SourceItem z:Ref="i180" />
                 <SourceItem z:Ref="i181" />
                 <SourceItem z:Ref="i182" />
-                <SourceItem z:Ref="i183" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i197">
+        <SourceItem z:Id="i209">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Point_Channel Ganging_PMIC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i184" />
+                <SourceItem z:Ref="i185" />
+                <SourceItem z:Ref="i186" />
+                <SourceItem z:Ref="i187" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i210">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i189" />
+                <SourceItem z:Ref="i190" />
+                <SourceItem z:Ref="i191" />
+                <SourceItem z:Ref="i192" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i211">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i194" />
+                <SourceItem z:Ref="i195" />
+                <SourceItem z:Ref="i196" />
+                <SourceItem z:Ref="i197" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i212">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Eff and Load Reg_Channel Ganging_PMIC</RelativePath>
             <DependentItems>
@@ -1362,12 +1467,12 @@
                 <SourceItem z:Ref="i14" />
                 <SourceItem z:Ref="i15" />
                 <SourceItem z:Ref="i16" />
-                <SourceItem z:Ref="i129" />
-                <SourceItem z:Ref="i185" />
+                <SourceItem z:Ref="i138" />
+                <SourceItem z:Ref="i199" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i198">
+        <SourceItem z:Id="i213">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_Channel Ganging_PMIC</RelativePath>
             <DependentItems>
@@ -1375,12 +1480,12 @@
                 <SourceItem z:Ref="i37" />
                 <SourceItem z:Ref="i38" />
                 <SourceItem z:Ref="i39" />
-                <SourceItem z:Ref="i138" />
-                <SourceItem z:Ref="i187" />
+                <SourceItem z:Ref="i147" />
+                <SourceItem z:Ref="i201" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i199">
+        <SourceItem z:Id="i214">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Transient Response_PMIC</RelativePath>
             <DependentItems>
@@ -1388,12 +1493,12 @@
                 <SourceItem z:Ref="i56" />
                 <SourceItem z:Ref="i57" />
                 <SourceItem z:Ref="i58" />
-                <SourceItem z:Ref="i147" />
-                <SourceItem z:Ref="i189" />
+                <SourceItem z:Ref="i156" />
+                <SourceItem z:Ref="i203" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i200">
+        <SourceItem z:Id="i215">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient_Channel Ganging_PMIC</RelativePath>
             <DependentItems>
@@ -1401,51 +1506,64 @@
                 <SourceItem z:Ref="i75" />
                 <SourceItem z:Ref="i76" />
                 <SourceItem z:Ref="i77" />
-                <SourceItem z:Ref="i156" />
-                <SourceItem z:Ref="i191" />
+                <SourceItem z:Ref="i165" />
+                <SourceItem z:Ref="i205" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i201">
+        <SourceItem z:Id="i216">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\PSRR_PMIC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i93" />
+                <SourceItem z:Ref="i94" />
+                <SourceItem z:Ref="i95" />
+                <SourceItem z:Ref="i96" />
+                <SourceItem z:Ref="i174" />
+                <SourceItem z:Ref="i207" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i217">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Single Point_Channel Ganging_PMIC</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i103" />
-                <SourceItem z:Ref="i104" />
-                <SourceItem z:Ref="i105" />
-                <SourceItem z:Ref="i106" />
-                <SourceItem z:Ref="i169" />
-                <SourceItem z:Ref="i194" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i202">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i112" />
                 <SourceItem z:Ref="i113" />
                 <SourceItem z:Ref="i114" />
                 <SourceItem z:Ref="i115" />
-                <SourceItem z:Ref="i174" />
-                <SourceItem z:Ref="i195" />
+                <SourceItem z:Ref="i183" />
+                <SourceItem z:Ref="i209" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i203">
+        <SourceItem z:Id="i218">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC</RelativePath>
+            <RelativePath>..\builds\Sweep_Channel Ganging_PMIC</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i121" />
                 <SourceItem z:Ref="i122" />
                 <SourceItem z:Ref="i123" />
                 <SourceItem z:Ref="i124" />
-                <SourceItem z:Ref="i179" />
-                <SourceItem z:Ref="i196" />
+                <SourceItem z:Ref="i188" />
+                <SourceItem z:Ref="i210" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i204">
+        <SourceItem z:Id="i219">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Waveform Mode_Channel Ganging_PMIC</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i130" />
+                <SourceItem z:Ref="i131" />
+                <SourceItem z:Ref="i132" />
+                <SourceItem z:Ref="i133" />
+                <SourceItem z:Ref="i193" />
+                <SourceItem z:Ref="i211" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i220">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_PMIC</RelativePath>
             <DependentItems>
@@ -1455,11 +1573,11 @@
                 <SourceItem z:Ref="i5" />
                 <SourceItem z:Ref="i6" />
                 <SourceItem z:Ref="i11" />
-                <SourceItem z:Ref="i184" />
+                <SourceItem z:Ref="i198" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i205">
+        <SourceItem z:Id="i221">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency And Load Regulation_PMIC</RelativePath>
             <DependentItems>
@@ -1469,11 +1587,11 @@
                 <SourceItem z:Ref="i24" />
                 <SourceItem z:Ref="i25" />
                 <SourceItem z:Ref="i30" />
-                <SourceItem z:Ref="i186" />
+                <SourceItem z:Ref="i200" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i206">
+        <SourceItem z:Id="i222">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Line Regulation_PMIC</RelativePath>
             <DependentItems>
@@ -1483,11 +1601,11 @@
                 <SourceItem z:Ref="i47" />
                 <SourceItem z:Ref="i48" />
                 <SourceItem z:Ref="i49" />
-                <SourceItem z:Ref="i188" />
+                <SourceItem z:Ref="i202" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i207">
+        <SourceItem z:Id="i223">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Load Transient Response_PMIC</RelativePath>
             <DependentItems>
@@ -1497,11 +1615,11 @@
                 <SourceItem z:Ref="i66" />
                 <SourceItem z:Ref="i67" />
                 <SourceItem z:Ref="i68" />
-                <SourceItem z:Ref="i190" />
+                <SourceItem z:Ref="i204" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i208">
+        <SourceItem z:Id="i224">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Multi-Channel Output Voltage Accuracy_PMIC</RelativePath>
             <DependentItems>
@@ -1511,1354 +1629,592 @@
                 <SourceItem z:Ref="i85" />
                 <SourceItem z:Ref="i86" />
                 <SourceItem z:Ref="i87" />
-                <SourceItem z:Ref="i192" />
+                <SourceItem z:Ref="i206" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i209">
+        <SourceItem z:Id="i225">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Ripple_PMIC</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i92" />
-                <SourceItem z:Ref="i93" />
-                <SourceItem z:Ref="i94" />
-                <SourceItem z:Ref="i95" />
-                <SourceItem z:Ref="i96" />
-                <SourceItem z:Ref="i97" />
-                <SourceItem z:Ref="i193" />
+                <SourceItem z:Ref="i101" />
+                <SourceItem z:Ref="i102" />
+                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i104" />
+                <SourceItem z:Ref="i105" />
+                <SourceItem z:Ref="i106" />
+                <SourceItem z:Ref="i208" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i210">
+        <SourceItem z:Id="i226">
             <PluginConfigurationOptions />
             <RelativePath>..\builds</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i204" />
-                <SourceItem z:Ref="i197" />
-                <SourceItem z:Ref="i205" />
-                <SourceItem z:Ref="i198" />
-                <SourceItem z:Ref="i206" />
-                <SourceItem z:Ref="i199" />
-                <SourceItem z:Ref="i207" />
-                <SourceItem z:Ref="i200" />
-                <SourceItem z:Ref="i208" />
-                <SourceItem z:Ref="i209" />
-                <SourceItem z:Ref="i201" />
-                <SourceItem z:Ref="i202" />
-                <SourceItem z:Ref="i203" />
+                <SourceItem z:Ref="i220" />
+                <SourceItem z:Ref="i212" />
+                <SourceItem z:Ref="i221" />
+                <SourceItem z:Ref="i213" />
+                <SourceItem z:Ref="i222" />
+                <SourceItem z:Ref="i214" />
+                <SourceItem z:Ref="i223" />
+                <SourceItem z:Ref="i215" />
+                <SourceItem z:Ref="i224" />
+                <SourceItem z:Ref="i216" />
+                <SourceItem z:Ref="i225" />
+                <SourceItem z:Ref="i217" />
+                <SourceItem z:Ref="i218" />
+                <SourceItem z:Ref="i219" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
     </SourceItems>
     <InputSourceItems>
-        <SourceItem z:Ref="i210" />
+        <SourceItem z:Ref="i226" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i211" i:type="Package">
+        <Distribution z:Id="i227" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i212" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i228" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
                     <Name>National Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i213" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i229" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins</DestinationRelativePath>
                     <Name>Plug-Ins</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i214" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i230" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements</DestinationRelativePath>
                     <Name>Measurements</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i215" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i231" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC</DestinationRelativePath>
                     <Name>PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i216" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i232" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC</DestinationRelativePath>
                     <Name>Crosstalk_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i217" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Crosstalk_PMIC.aliases</DestinationRelativePath>
-                    <Name>Crosstalk_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i2" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i218" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Crosstalk_PMIC.exe</DestinationRelativePath>
-                    <Name>Crosstalk_PMIC.exe</Name>
-                    <SourceItem z:Ref="i3" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i219" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Crosstalk_PMIC.ini</DestinationRelativePath>
-                    <Name>Crosstalk_PMIC.ini</Name>
-                    <SourceItem z:Ref="i4" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i220" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Crosstalk_PMIC.lvlib</DestinationRelativePath>
-                    <Name>Crosstalk_PMIC.lvlib</Name>
-                    <SourceItem z:Ref="i5" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i221" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Crosstalk_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Crosstalk_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i6" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i11" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i223" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i233" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i224" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i234" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i225" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i7" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i226" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i235" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i227" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i8" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i228" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i236" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i229" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i9" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i230" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i237" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i231" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Crosstalk_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i10" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i232" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i238" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC</DestinationRelativePath>
                     <Name>Eff and Load Reg_Channel Ganging_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i233" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Eff and Load Reg_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Eff and Load Reg_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i13" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i234" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Eff and Load Reg_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Eff and Load Reg_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i14" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i235" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Eff and Load Reg_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Eff and Load Reg_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i15" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i236" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Eff and Load Reg_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Eff and Load Reg_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i16" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i237" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i239" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i238" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\BuiltUI\Eff And Load Reg_Channel Ganging_UI.lvlibp</DestinationRelativePath>
-                    <Name>Eff And Load Reg_Channel Ganging_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i12" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i239" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i240" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i240" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i241" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i241" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i17" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i242" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i243" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i18" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i244" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i243" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i245" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i19" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i246" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i244" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i247" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Eff and Load Reg_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i20" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i248" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i245" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC</DestinationRelativePath>
                     <Name>Efficiency And Load Regulation_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i249" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Efficiency And Load Regulation_PMIC.aliases</DestinationRelativePath>
-                    <Name>Efficiency And Load Regulation_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i21" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i250" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Efficiency And Load Regulation_PMIC.exe</DestinationRelativePath>
-                    <Name>Efficiency And Load Regulation_PMIC.exe</Name>
-                    <SourceItem z:Ref="i22" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i251" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Efficiency And Load Regulation_PMIC.ini</DestinationRelativePath>
-                    <Name>Efficiency And Load Regulation_PMIC.ini</Name>
-                    <SourceItem z:Ref="i23" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i252" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Efficiency And Load Regulation_PMIC.lvlib</DestinationRelativePath>
-                    <Name>Efficiency And Load Regulation_PMIC.lvlib</Name>
-                    <SourceItem z:Ref="i24" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i253" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Efficiency And Load Regulation_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Efficiency And Load Regulation_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i25" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i254" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i30" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i255" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i246" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i256" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i247" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i257" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i26" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i258" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i248" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i259" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i27" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i260" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i249" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i261" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i28" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i262" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i250" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i263" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Efficiency And Load Regulation_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i29" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i264" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i251" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC</DestinationRelativePath>
                     <Name>Line Regulation_Channel Ganging_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i265" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\LineRegulation_ChannelGanging_PMIC.aliases</DestinationRelativePath>
-                    <Name>LineRegulation_ChannelGanging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i36" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i266" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\LineRegulation_ChannelGanging_PMIC.exe</DestinationRelativePath>
-                    <Name>LineRegulation_ChannelGanging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i37" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i267" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\LineRegulation_ChannelGanging_PMIC.ini</DestinationRelativePath>
-                    <Name>LineRegulation_ChannelGanging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i38" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i268" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\LineRegulation_ChannelGanging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>LineRegulation_ChannelGanging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i39" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i269" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i252" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i270" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\BuiltUI\Line Regulation_Channel Ganging_UI.lvlibp</DestinationRelativePath>
-                    <Name>Line Regulation_Channel Ganging_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i31" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i271" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i253" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i272" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i254" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i273" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i32" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i274" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i255" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i275" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i33" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i276" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i256" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i277" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i34" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i278" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i257" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i279" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i35" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i280" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i258" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC</DestinationRelativePath>
                     <Name>Line Regulation_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i281" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Line Regulation_PMIC.aliases</DestinationRelativePath>
-                    <Name>Line Regulation_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i44" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i282" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Line Regulation_PMIC.exe</DestinationRelativePath>
-                    <Name>Line Regulation_PMIC.exe</Name>
-                    <SourceItem z:Ref="i45" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i283" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Line Regulation_PMIC.ini</DestinationRelativePath>
-                    <Name>Line Regulation_PMIC.ini</Name>
-                    <SourceItem z:Ref="i46" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i284" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Line Regulation_PMIC.lvlib</DestinationRelativePath>
-                    <Name>Line Regulation_PMIC.lvlib</Name>
-                    <SourceItem z:Ref="i47" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i285" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Line Regulation_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Line Regulation_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i48" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i286" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i49" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i287" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i259" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i288" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i260" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i289" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i40" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i290" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i261" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i291" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i41" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i292" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i262" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i293" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i42" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i294" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i263" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i295" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Regulation_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i43" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i296" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i264" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC</DestinationRelativePath>
                     <Name>Line Transient Response_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i297" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Line Transient Response_PMIC.aliases</DestinationRelativePath>
-                    <Name>Line Transient Response_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i55" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i298" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Line Transient Response_PMIC.exe</DestinationRelativePath>
-                    <Name>Line Transient Response_PMIC.exe</Name>
-                    <SourceItem z:Ref="i56" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i299" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Line Transient Response_PMIC.ini</DestinationRelativePath>
-                    <Name>Line Transient Response_PMIC.ini</Name>
-                    <SourceItem z:Ref="i57" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i300" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Line Transient Response_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Line Transient Response_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i58" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i301" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i265" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i302" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\BuiltUI\Line Transient Response_PMIC_UI.lvlibp</DestinationRelativePath>
-                    <Name>Line Transient Response_PMIC_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i50" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i303" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i266" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i304" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i267" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i305" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i51" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i306" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i268" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i307" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i52" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i308" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i269" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i309" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i53" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i310" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i270" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i311" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Line Transient Response_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i54" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i312" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i271" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC</DestinationRelativePath>
                     <Name>Load Transient Response_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i313" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Load Transient Response_PMIC.aliases</DestinationRelativePath>
-                    <Name>Load Transient Response_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i63" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i314" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Load Transient Response_PMIC.exe</DestinationRelativePath>
-                    <Name>Load Transient Response_PMIC.exe</Name>
-                    <SourceItem z:Ref="i64" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i315" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Load Transient Response_PMIC.ini</DestinationRelativePath>
-                    <Name>Load Transient Response_PMIC.ini</Name>
-                    <SourceItem z:Ref="i65" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i316" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Load Transient Response_PMIC.lvlib</DestinationRelativePath>
-                    <Name>Load Transient Response_PMIC.lvlib</Name>
-                    <SourceItem z:Ref="i66" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i317" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Load Transient Response_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Load Transient Response_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i67" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i318" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i68" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i319" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i272" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i320" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i273" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i321" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i59" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i322" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i274" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i323" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i60" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i324" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i275" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i325" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i61" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i326" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i276" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i327" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient Response_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i62" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i328" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i277" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC</DestinationRelativePath>
                     <Name>Load Transient_Channel Ganging_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i329" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\LoadTransient_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>LoadTransient_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i74" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i330" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\LoadTransient_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>LoadTransient_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i75" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i331" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\LoadTransient_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>LoadTransient_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i76" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i332" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\LoadTransient_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>LoadTransient_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i77" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i333" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i278" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i334" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\BuiltUI\Load Transient_Channel Ganging_PMIC_UI.lvlibp</DestinationRelativePath>
-                    <Name>Load Transient_Channel Ganging_PMIC_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i69" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i335" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i279" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i336" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i280" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i337" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i70" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i338" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i281" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i339" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i71" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i340" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i282" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i341" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i72" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i342" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i283" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i343" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Load Transient_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i73" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i344" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i284" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC</DestinationRelativePath>
                     <Name>Multi-Channel Output Voltage Accuracy_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i345" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i82" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i346" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Multi-Channel Output Voltage Accuracy_PMIC.lvlib</DestinationRelativePath>
-                    <Name>Multi-Channel Output Voltage Accuracy_PMIC.lvlib</Name>
-                    <SourceItem z:Ref="i83" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i347" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Multi-ChannelOutputVoltageAccuracy_PMIC.aliases</DestinationRelativePath>
-                    <Name>Multi-ChannelOutputVoltageAccuracy_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i84" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i348" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Multi-ChannelOutputVoltageAccuracy_PMIC.exe</DestinationRelativePath>
-                    <Name>Multi-ChannelOutputVoltageAccuracy_PMIC.exe</Name>
-                    <SourceItem z:Ref="i85" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i349" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Multi-ChannelOutputVoltageAccuracy_PMIC.ini</DestinationRelativePath>
-                    <Name>Multi-ChannelOutputVoltageAccuracy_PMIC.ini</Name>
-                    <SourceItem z:Ref="i86" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i350" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Multi-ChannelOutputVoltageAccuracy_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Multi-ChannelOutputVoltageAccuracy_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i87" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i351" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i285" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i352" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i286" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i353" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i78" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i354" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i287" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i355" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i79" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i356" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i288" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i357" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i80" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i358" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i289" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i359" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Multi-Channel Output Voltage Accuracy_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i81" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i360" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i290" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC</DestinationRelativePath>
                     <Name>Ripple_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i361" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i92" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i362" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.aliases</DestinationRelativePath>
-                    <Name>Ripple_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i93" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i363" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.exe</DestinationRelativePath>
-                    <Name>Ripple_PMIC.exe</Name>
-                    <SourceItem z:Ref="i94" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i364" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.ini</DestinationRelativePath>
-                    <Name>Ripple_PMIC.ini</Name>
-                    <SourceItem z:Ref="i95" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i365" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.lvlib</DestinationRelativePath>
-                    <Name>Ripple_PMIC.lvlib</Name>
-                    <SourceItem z:Ref="i96" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i366" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Ripple_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i97" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i367" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i291" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i368" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i292" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i369" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i88" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i370" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i293" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i371" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                <DistributionItem z:Id="i294" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i295" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i296" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i297" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i298" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i299" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i300" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i301" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i302" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i303" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i304" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i305" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i306" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i307" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i308" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i309" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i310" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i311" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i312" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i313" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i314" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i315" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i316" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i317" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC</DestinationRelativePath>
+                    <Name>PSRR_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i318" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\PSRR_PMIC.aliases</DestinationRelativePath>
+                    <Name>PSRR_PMIC.aliases</Name>
+                    <SourceItem z:Ref="i93" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i319" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\PSRR_PMIC.exe</DestinationRelativePath>
+                    <Name>PSRR_PMIC.exe</Name>
+                    <SourceItem z:Ref="i94" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i320" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\PSRR_PMIC.ini</DestinationRelativePath>
+                    <Name>PSRR_PMIC.ini</Name>
+                    <SourceItem z:Ref="i95" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i321" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\PSRR_PMIC.serviceconfig</DestinationRelativePath>
+                    <Name>PSRR_PMIC.serviceconfig</Name>
+                    <SourceItem z:Ref="i96" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i322" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i323" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\BuiltUI\PSRR_PMIC_UI.lvlibp</DestinationRelativePath>
+                    <Name>PSRR_PMIC_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i88" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i324" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i325" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i326" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i89" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i372" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
+                <DistributionItem z:Id="i327" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i373" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
+                <DistributionItem z:Id="i328" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i90" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i374" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
+                <DistributionItem z:Id="i329" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i375" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                <DistributionItem z:Id="i330" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i91" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i376" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i377" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i103" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i378" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i104" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i379" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i105" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i380" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i106" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i381" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i382" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI\Single Point_Channel Ganging_UI.lvlibp</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i98" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i383" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i384" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i385" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i99" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i386" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i387" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i100" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i388" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i389" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i101" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i390" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                <DistributionItem z:Id="i331" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i391" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                <DistributionItem z:Id="i332" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\PSRR_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i102" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i392" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i393" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i112" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i394" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i113" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i395" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i114" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i396" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i115" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i397" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i398" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI\Sweep_Channel Ganging_UI.lvlibp</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i107" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i399" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i400" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i401" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i108" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i402" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i403" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i109" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i404" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i405" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i110" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i406" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i407" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i111" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i408" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i409" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i121" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i410" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i122" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i411" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i123" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i412" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i124" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i413" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i414" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI\Waveform Mode_Channel Ganging UI.lvlibp</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging UI.lvlibp</Name>
-                    <SourceItem z:Ref="i116" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i415" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i416" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i417" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i117" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i418" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i419" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i118" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i420" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i421" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i119" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i422" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i423" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i120" />
+                    <SourceItem z:Ref="i92" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
@@ -2869,23 +2225,23 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i424">
+            <BuildStatus z:Id="i333">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-pmic-labview_1.0.0.6_windows_x64.nipkg</FileName>
-                <Version>1.0.0.6</Version>
+                <FileName>community-pmic-labview_1.0.0.7_windows_x64.nipkg</FileName>
+                <Version>1.0.0.7</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <Description>Measurements for PMIC using Measurement Plug-In SDK</Description>
             <DisplayName>PMIC Measurement Plug-In (LabVIEW)</DisplayName>
-            <FileName>community-pmic-labview_1.0.0.7_windows_x64.nipkg</FileName>
+            <FileName>community-pmic-labview_1.0.0.8_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-Measurement-Plug-Ins/pmic-labview</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <PackageName>community-pmic-labview</PackageName>
             <PackageRelationships>
-                <PackageRelationship z:Id="i425">
+                <PackageRelationship z:Id="i334">
                     <Constraint>LaterOrEqual</Constraint>
                     <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
                     <PackageName>ni-labview-2021-runtime-engine</PackageName>
@@ -2895,18 +2251,18 @@
                 </PackageRelationship>
             </PackageRelationships>
             <ProductName>MyProduct</ProductName>
-            <ReleaseNotes>Supports Efficiency and Load Regulation, Line Regulation, Load Transient Response, Line Transient Respone, Ripple, Crosstalk and Multi-Channel Output Voltage Accuracy Measurements, Ganging Measurements for Single Point, Sweep, Waveform Mode, Efficiency and Load Regulation, Line Regulation and Load Transient Response</ReleaseNotes>
+            <ReleaseNotes>Supports Efficiency and Load Regulation, Line Regulation, Load Transient Response, Line Transient Respone, Ripple, Crosstalk and Multi-Channel Output Voltage Accuracy, PSRR Measurements, Ganging Measurements for Single Point, Sweep, Waveform Mode, Efficiency and Load Regulation, Line Regulation and Load Transient Response</ReleaseNotes>
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-pmic-labview</Synopsis>
-            <Version>1.0.0.7</Version>
+            <Version>1.0.0.8</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i426">
+        <DistributionGroup z:Id="i335">
             <Distributions>
-                <Distribution z:Ref="i211" />
+                <Distribution z:Ref="i227" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
