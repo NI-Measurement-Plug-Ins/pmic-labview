@@ -9,15 +9,19 @@ This service performs Efficiency and Load Regulation measurement with Ganging/St
 ### Usage
 
 1. Select the appropriate source resource names of all the instruments which are stacked or ganged. One of the instruments will be master and others will be slave devices. Update the other parameters as per the system configuration.
-   ![alt text](../meas-images/efficiency-source-config.png)
+   ![alt text](../meas-images/eff-and-lr-ch-source-config.png)
 
 2. Similarly, update the parameters in the load configuration.
-   ![alt text](../meas-images/efficiency-load-config.png)
+   ![alt text](../meas-images/eff-and-lr-ch-load-config.png)
 
 3. Run the measurement. The efficiency values are plotted in the graph.
    
    Efficiency:
-   ![alt text](../meas-images/efficiency-meas-results.png)
+   ![alt text](../meas-images/eff-and-lr-ch-efficiency.png)
+   Load Regulation(V/V):
+   ![alt text](../meas-images/eff-and-lr-ch-load-volt.png)
+   Load Regulation(%):
+   ![alt text](../meas-images/eff-and-lr-ch-load-voltage-dev.png)
 
 ## Tested with
 - 2xPXIe-4151
