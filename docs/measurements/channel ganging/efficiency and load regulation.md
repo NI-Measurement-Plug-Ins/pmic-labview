@@ -1,4 +1,4 @@
-# Efficiency Channel Ganging
+# Efficiency and Load Regulation Channel Ganging
 This service performs Efficiency and Load Regulation measurement with Ganging/Stacking.
 
 ## Hardware Setup
