@@ -10,7 +10,7 @@ This service performs Line Transient measurement.
 
 1. Select the appropriate source and load resource names and update other parameters as needed.
 
-   ![alt text](meas-images/line-reg-meas-config.png)
+   ![alt text](meas-images/line-transient-sourceandload-config.png)
    ![alt text](meas-images/line-transient-scope-config.png)
    Note:Disable scope if don't want to use
 
