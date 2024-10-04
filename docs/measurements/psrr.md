@@ -13,7 +13,4 @@ This service performs PSRR measurement.
    ![alt text](meas-images/psrr-fgenandscope-config.png)
    ![alt text](meas-images/psrr-sourceandload-config.png)
 
-3. Run the measurement. PSRR graph should be visible without any error.
-
-   PSRR:
-   ![alt text](meas-images/line-reg-load-volt.png)
+3. Run the measurement.
