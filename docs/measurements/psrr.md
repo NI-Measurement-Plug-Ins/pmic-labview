@@ -2,17 +2,18 @@
 This service performs PSRR measurement.
 
 ## Hardware Setup
-   ![alt text](meas-images/hw-setup.png)
+   ![alt text](meas-images/hw-psrr-setup.png)
 
 ## InstrumentStudio Panel
 
 ### Usage
 
-1. Select the appropriate source and load resource names and update other parameters as needed. 
+1. Select the appropriate source, load, fgen and scope resource names and update other parameters as needed. 
 
-   ![alt text](meas-images/line-reg-config.png)
+   ![alt text](meas-images/psrr-fgenandscope-config.png)
+   ![alt text](meas-images/psrr-sourceandload-config.png)
 
-2. Run the measurement. PSRR graph should be visible without any error.
+3. Run the measurement. PSRR graph should be visible without any error.
 
    PSRR:
    ![alt text](meas-images/line-reg-load-volt.png)
