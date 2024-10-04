@@ -17,4 +17,4 @@ This service performs Line Transient measurement.
 3. Run the measurement. Line transient graphs should be visible without any error.
 
    Line Transient:
-   ![alt text](meas-images/line-reg-load-volt.png)
+   ![alt text](meas-images/line-transient-result.png)
