@@ -25,4 +25,4 @@ This service performs Line Transient measurement. This mesurement supports 4151 
    
    Line Transient 4139 and 4051 :
    ![alt text](meas-images/line-transient-meas-4139-result.png)
-   ![alt text](meas-images/line-transient-scope-4151-result.png)
+   ![alt text](meas-images/line-transient-scope-4139-result.png)
