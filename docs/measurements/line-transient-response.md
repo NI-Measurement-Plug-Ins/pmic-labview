@@ -3,8 +3,9 @@ This service performs Line Transient measurement. This mesurement supports 4151 
 
 ## Hardware Setup
    PXIe-4151 and PXIe-4051
-   ![alt text](meas-images/hw-line-transient-setup.png)
+   ![alt text](meas-images/hw-line-trans-4151-setup.png)
    PXIe-4139 and PXIe-4051
+   ![alt text](meas-images/hw-line-trans-4139-setup.png)
 
 ## InstrumentStudio Panel
 
