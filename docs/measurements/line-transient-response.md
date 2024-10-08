@@ -1,8 +1,10 @@
 # Line Transient
-This service performs Line Transient measurement.
+This service performs Line Transient measurement. This mesurement supports 4151 and 4139 as power supply.
 
 ## Hardware Setup
+   PXIe-4151 and PXIe-4051
    ![alt text](meas-images/hw-line-transient-setup.png)
+   PXIe-4139 and PXIe-4051
 
 ## InstrumentStudio Panel
 
@@ -16,5 +18,10 @@ This service performs Line Transient measurement.
 
 3. Run the measurement. Line transient graphs should be visible without any error.
 
-   Line Transient:
-   ![alt text](meas-images/line-transient-result.png)
+   Line Transient 4151 and 4051 :
+   ![alt text](meas-images/line-transient-meas-4151-result.png)
+   ![alt text](meas-images/line-transient-scope-4151-result.png)
+   
+   Line Transient 4139 and 4051 :
+   ![alt text](meas-images/line-transient-meas-4139-result.png)
+   ![alt text](meas-images/line-transient-scope-4151-result.png)
