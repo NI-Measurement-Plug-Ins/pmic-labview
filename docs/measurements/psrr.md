@@ -14,3 +14,4 @@ This service performs PSRR measurement.
    ![alt text](meas-images/psrr-sourceandload-config.png)
 
 3. Run the measurement.
+   ![alt text](meas-images/psrr-meas-result.png)
