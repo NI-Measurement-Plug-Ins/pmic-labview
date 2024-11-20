@@ -30,8 +30,8 @@
 			<Item Name="Calculate Sweep Values.vi" Type="VI" URL="../../../shared/Calculate Sweep Values.vi"/>
 			<Item Name="Calculate Voltage Deviation.vi" Type="VI" URL="../../../shared/Calculate Voltage Deviation.vi"/>
 		</Item>
-		<Item Name="Quiescent Current_PMIC UI.lvlib" Type="Library" URL="../Quiescent Current_PMIC UI/Quiescent Current_PMIC UI.lvlib"/>
 		<Item Name="Quiescent Current_PMIC.lvlib" Type="Library" URL="../Quiescent Current_PMIC/Quiescent Current_PMIC.lvlib"/>
+		<Item Name="Quiescent Current_PMIC_UI.lvlib" Type="Library" URL="../Quiescent Current_PMIC UI/Quiescent Current_PMIC_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -122,7 +122,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
 				<Item Name="NI Measurement Plug-In SDK.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Measurements/NI Measurement Plug-In SDK.lvlib"/>
@@ -173,85 +173,84 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Quiescent Current_PMIC" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{086F3A21-486E-447B-89D9-C37147B0AC46}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{35C83A25-CC3E-4314-9115-816C9F8AC446}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1417CBEB-F0C8-4E4A-B483-0FE6A475E1C9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{40EE3C88-6B33-4CBA-AA69-44B85D67EFC2}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{DC136BFA-EB06-44D9-9E8B-F78FFFC7B5B0}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6E5623AA-395A-4222-9F93-E9FE74B51AC2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Quiescent Current_PMIC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Quiescent Current_PMIC</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/pmic-labview/builds/Q Current_PMIC</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{635AC139-7F0E-4736-A7FC-378E6B823284}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1E22F337-7D04-459D-B87B-0EFE36BB802C}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">QuiescentCurrent_PMIC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Quiescent Current_PMIC/QuiescentCurrent_PMIC.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Quiescent Current_PMIC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Q Current_PMIC/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Quiescent Current_PMIC/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Q Current_PMIC/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E05F28BE-ED87-4BD8-BAA8-C1BB40BC0237}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E8D74D11-56A4-43F2-95F7-420E0F202B5F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Get Measurement Details.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Run Service.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Run Service.vi</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[7].properties[0].value" Type="Str">Minimized</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
-				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Quiescent Current_PMIC</Property>
 				<Property Name="TgtF_internalName" Type="Str">Quiescent Current_PMIC</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
 				<Property Name="TgtF_productName" Type="Str">Quiescent Current_PMIC</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{448D0A25-2F0B-4764-AC3C-9A8FD88797CF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">QuiescentCurrent_PMIC.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{97278FE9-2D83-4357-B433-976A81FCBB1C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Quiescent Current_PMIC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Quiescent Current_PMIC UI" Type="Packed Library">
+			<Item Name="Quiescent Current_PMIC_UI" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{BE9C7FEE-656F-4C42-AC4D-7D0375E7A6A8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Quiescent Current_PMIC UI</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{74606EEE-9334-4544-8D4E-DA3CFCDCCA52}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Quiescent Current_PMIC_UI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{6AF5C0A4-48F7-4996-845C-A6D0B8B1568A}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D4253044-1679-4C32-93D5-5AD4A59B07A4}</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Quiescent Current_PMIC UI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Quiescent Current_PMIC UI.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Quiescent Current_PMIC_UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Quiescent Current_PMIC_UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -260,10 +259,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E05F28BE-ED87-4BD8-BAA8-C1BB40BC0237}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E8D74D11-56A4-43F2-95F7-420E0F202B5F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC UI.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC_UI.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -271,12 +270,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Quiescent Current_PMIC UI</Property>
-				<Property Name="TgtF_internalName" Type="Str">Quiescent Current_PMIC UI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Quiescent Current_PMIC_UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Quiescent Current_PMIC_UI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
-				<Property Name="TgtF_productName" Type="Str">Quiescent Current_PMIC UI</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{30CB7B22-9CBE-4C40-9C1E-FDCDB58B2ABC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Quiescent Current_PMIC UI.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">Quiescent Current_PMIC_UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E60D7642-8A35-49DF-841A-B375B872B6EB}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Quiescent Current_PMIC_UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
