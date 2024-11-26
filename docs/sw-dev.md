@@ -12,14 +12,16 @@ Install the below softwares and packages from NIPM
 - TestStand 2022 Q4
 - Semiconductor Device Control Add-On 2023 Q4
 
-## VIPM packages
-
+Note: for following other dependecies install VIPM with LabVIEW 2021 support.
 Download and install the below packages in this [link](https://github.com/ni/measurement-plugin-labview/releases/tag/v3.0.0.3).
 - ni_lib_labview_grpc_library-1.0.1.1
 - ni_lib_labview_grpc_servicer-1.0.1.1
 - ni_protobuf_types-1.0.0.1
 - ni_measurement_plugin_sdk_service-3.0.0.3
 - ni_measurement_plugin_sdk_generator-3.0.0.3
+  
+
+
 
 ## Tested with:
 - InstrumentStudio Pro 2024 Q3
