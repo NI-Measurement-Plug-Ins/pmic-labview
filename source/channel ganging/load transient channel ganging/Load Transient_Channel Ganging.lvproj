@@ -186,7 +186,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Load Transient_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7FC2EFB-C093-4C0B-BF28-A186561D4FE9}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LoadTransient_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Load Transient_Channel Ganging_PMIC/LoadTransient_Channel Ganging_PMIC.exe</Property>
@@ -197,7 +197,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Load Transient_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{38BE5D30-8DB0-4EFC-87BD-D59426AB1C53}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{205A9C58-9061-416B-A46A-B21B74928FB6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Load Transient_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
