@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Workflow
-This workflow is applicable for all the PMIC measurements.
+This workflow is applicable for all the PMIC.
 
 ### Adding a measurement panel to InstrumentStudio Pro
 
