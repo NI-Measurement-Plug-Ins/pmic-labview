@@ -1,5 +1,5 @@
-# Load Transient Channel Ganging
-This service performs Load Transient measurement with Ganging/Stacking.
+# Line Transient Channel Ganging
+This service performs Line Transient measurement with Ganging/Stacking.
 
 ## Hardware Setup
   ![alt text](../meas-images/line-transient-ch-ganging-hw-config.PNG)
