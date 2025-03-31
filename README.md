@@ -14,6 +14,9 @@
    - PSRR
    - Ripple
    - Multi-Channel Output Voltage Accuracy
+   - Q-Current
+   - Ramp-up Time
+   - Arbitrary Mode
 
  - Channel Ganging measurements
    - Single point channel ganging
@@ -22,6 +25,8 @@
    - Efficiency and Load Regulation channel ganging measurement
    - Load Transient Response
    - Line Regulation
+   - Q-Current
+   - Line Transient Response
 
 Click here for a detailed list of measurements and their functionality: [Measurement List](docs/measurements/meas-index.md)
 
@@ -36,6 +41,8 @@ Click here for a detailed list of measurements and their functionality: [Measure
 Validated hardware for these plugins:
 - PXIe-4151
 - PXIe-4051
+- PXIe-4150
+- PXIe-4139
 - PXIe-6570/1
 - PXI-5122
 
