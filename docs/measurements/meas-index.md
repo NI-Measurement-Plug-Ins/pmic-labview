@@ -7,6 +7,9 @@ Single channel measurements
  - [Ripple](ripple.md)
  - [Multi-Channel Output Voltage Accuracy](multi-channel-output-voltage-accuracy.md)
  - [PSRR](psrr.md)
+ - [Arbitrary Mode](arbitrary-mode.md)
+ - [Ramp-up Time](ramp-up-time.md)
+ - [Q-Current](q-current.md)
    
 Channel Ganging
   - [Single Point](channel%20ganging/single-point.md)
@@ -15,3 +18,5 @@ Channel Ganging
   - [Efficiency and Load Regulation](channel%20ganging/efficiency-and-load-regulation.md)
   - [Line Regulation](channel%20ganging/line-regulation.md)
   - [Load Transient Response](channel%20ganging/load-transient.md)
+  - [Line Transient Response](channel%20ganging/line-transient.md)
+  - [Q-Current](channel%20ganging/q-current.md)
