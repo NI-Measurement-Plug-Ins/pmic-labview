@@ -310,7 +310,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Line Transient_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{53F01FFB-BC34-45A9-8A86-19988A6E3837}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Line Transient_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Line Transient_Channel Ganging_PMIC/Line Transient_Channel Ganging_PMIC.exe</Property>
@@ -321,7 +321,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Line Transient_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{899603B1-7AAA-4C8E-9CBA-6A9F2192616A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E69BFBF-E991-41AB-BEB5-CE2FB902E0A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Line Transient_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -374,7 +374,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{395CEC3E-B969-45DB-AB7C-1137EDE3A8D0}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Line Transient_Channel Ganging_PMIC_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Line Transient_Channel Ganging_PMIC_UI.lvlibp</Property>
@@ -386,7 +386,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{899603B1-7AAA-4C8E-9CBA-6A9F2192616A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E69BFBF-E991-41AB-BEB5-CE2FB902E0A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Line Transient_Channel Ganging UI.lvlib</Property>
