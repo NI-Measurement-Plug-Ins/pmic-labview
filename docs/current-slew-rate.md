@@ -27,25 +27,32 @@ Cureesnt slew rate utility vi helps users to control current slew rate of power-
 
 ### Notes:
 ## Defination:
-1. Voltage Limit Range:
-  Specifies the voltage limit of the source instrument for determining compliance. 
-  
-2. Current Level Range:
-  Specifies the current level of the source instrument. Please refer to the device current ranges.
-3. Sample Rate: 
-4. Update Rate:
-5. Slew rate: 
-6. Expected Time for Slew Rate:
-7. Transient Response: 
 
-8. Current Gain Bandwidth:
+1. Sample Rate:
+   Specifies the rate at which that you can output data from the device and still achieve accurate 
+results
+   
+2. Update Rate:
+   Specifies the rate at which that you can input data to the device and achieve accurate 
+results
+
+3. Slew Rate:
+   Specifies the rate at which a current increases to a set level
+  
+4. Expected Time for Slew Rate:
+   Results the actual time require for power supply to acheive desiered slew rate.
+   
+5. Transient Response:
+   Specifies the transient response of power supply.
+
+6. Current Gain Bandwidth:
    Specifies the SourceAdapt gain-bandwidth parameter for the current control loop. 
    Higher GBW values allow for faster transients but less stability, while lower GBW values result in slower transients but more stability.
 
-9. Current Compensation Frequency:
+7. Current Compensation Frequency:
    Specifies the SourceAdapt compensation frequency parameter for the current control loop. It is the frequency at which a pole-zero pair is added to the system.
 
-10. Current Pole-Zero Ratio:
+8. Current Pole-Zero Ratio:
     Specifies the SourceAdapt pole-zero ratio parameter for the current control loop. It is the ratio of pole and zero frequencies.
 
 
