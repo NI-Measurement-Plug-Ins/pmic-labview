@@ -26,7 +26,15 @@ Cureesnt slew rate utility vi helps users to control current slew rate of power-
   ![alt text](images/current-slew-rate-scope-results.png)
 
 ### Notes:
-## Defination:
+
+## Workflow for using Custom transient response
+1. Open source/utility/Current slew rate.vi  
+2. Select the appropriate source resouce name, current levels, update rate and other parameters.
+3. Select the custom transient response tab. Only if custom transient tab is selected while running the vi custom transient response will be taken into consideration.
+     ![alt text](images/current-slew-rate-custom-transient.png)
+4. Give appropriate values for Current Gain Bandwidth, Current Compensation Frequency, Current Pole-Zero Ratio
+
+## Parameter definations:
 
 1. Sample Rate:
    Specifies the rate at which that you can output data from the device and still achieve accurate 
