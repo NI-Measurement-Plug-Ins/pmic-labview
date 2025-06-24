@@ -63,4 +63,8 @@ results
 8. Current Pole-Zero Ratio:
     Specifies the SourceAdapt pole-zero ratio parameter for the current control loop. It is the ratio of pole and zero frequencies.
 
+9. Scope Probe Attenuation:
+   Specifies the scale of data as needed based on scaling factor or attenuation factor of the probe
+   
+   Note: For running current slew rate with scope either voltage or current probes can be used.
 
