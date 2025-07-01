@@ -13,6 +13,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Calculate Efficiency.vi" Type="VI" URL="../subVIs/Calculate Efficiency.vi"/>
 		<Item Name="Calculate Input Voltage Values.vi" Type="VI" URL="../subVIs/Calculate Input Voltage Values.vi"/>
+		<Item Name="Calculate Single Point Voltage Deviation.vi" Type="VI" URL="../subVIs/Calculate Single Point Voltage Deviation.vi"/>
 		<Item Name="Perform Measurements.vi" Type="VI" URL="../subVIs/Perform Measurements.vi"/>
 		<Item Name="Sweep Load Currents.vi" Type="VI" URL="../subVIs/Sweep Load Currents.vi"/>
 	</Item>

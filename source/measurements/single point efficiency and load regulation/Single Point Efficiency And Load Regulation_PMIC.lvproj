@@ -13,6 +13,7 @@
 		<Item Name="shared" Type="Folder" URL="../../../shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="PMIC UI.lvlib" Type="Library" URL="../Efficiency And Load Regulation_PMIC/PMIC UI/PMIC UI.lvlib"/>
 		<Item Name="Scalar Efficiency And Load Regulation_PMIC.lvlib" Type="Library" URL="../Efficiency And Load Regulation_PMIC/Scalar Efficiency And Load Regulation_PMIC.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -86,11 +87,16 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -146,6 +152,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -155,6 +162,11 @@
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -184,7 +196,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Scalar Efficiency And Load Regulation_PMIC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{449A2CDC-5582-4369-9166-3137FF8D92E9}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Efficiency And Load Regulation_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/Efficiency And Load Regulation_PMIC.exe</Property>
@@ -229,7 +241,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scalar Efficiency And Load Regulation_PMIC.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/PMIC UI.lvlib/Measurement UI.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
@@ -240,6 +252,49 @@
 				<Property Name="TgtF_productName" Type="Str">Efficiency And Load Regulation_PMIC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7EF5ED31-85A6-4D3A-A8D1-2ADEC049F3E7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Efficiency And Load Regulation_PMIC.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="PMIC UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3262B85E-80B9-4364-B765-DDCA8A89EF6B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PMIC UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Efficiency And Load Regulation_PMIC/BuiltUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F3228683-2F09-4071-8AC2-6AFE5AAB2374}</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">PMIC UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Efficiency And Load Regulation_PMIC/BuiltUI/PMIC UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Efficiency And Load Regulation_PMIC/BuiltUI</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A2C81A89-3E6B-466D-B810-DF4592ECFD55}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PMIC UI.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">PMIC UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">PMIC UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">PMIC UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7DE53297-A561-4735-88A1-734A0C230145}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">PMIC UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
