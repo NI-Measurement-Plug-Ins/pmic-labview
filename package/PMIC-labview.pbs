@@ -3771,396 +3771,396 @@
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i552" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i553" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i157" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i554" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i158" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i555" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i159" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i556" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i160" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i557" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i558" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI\Single Point_Channel Ganging_UI.lvlibp</DestinationRelativePath>
-                    <Name>Single Point_Channel Ganging_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i152" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i559" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i560" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i561" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i153" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i562" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i563" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i154" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i564" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i565" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i155" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i566" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i567" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i156" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i568" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i569" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i166" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i570" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i167" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i571" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i168" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i572" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i169" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i573" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i574" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI\Sweep_Channel Ganging_UI.lvlibp</DestinationRelativePath>
-                    <Name>Sweep_Channel Ganging_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i161" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i575" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i576" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i577" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i162" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i578" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i579" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i163" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i580" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i581" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i164" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i582" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i583" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i165" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i584" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i585" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.aliases</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.aliases</Name>
-                    <SourceItem z:Ref="i175" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i586" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.exe</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.exe</Name>
-                    <SourceItem z:Ref="i176" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i587" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.ini</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.ini</Name>
-                    <SourceItem z:Ref="i177" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i588" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging_PMIC.serviceconfig</Name>
-                    <SourceItem z:Ref="i178" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i589" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i590" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI\Waveform Mode_Channel Ganging UI.lvlibp</DestinationRelativePath>
-                    <Name>Waveform Mode_Channel Ganging UI.lvlibp</Name>
-                    <SourceItem z:Ref="i170" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i591" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i592" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i593" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i171" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i594" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i595" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i172" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i596" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i597" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i173" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i598" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i599" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i174" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i600" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC</DestinationRelativePath>
                     <Name>Ripple_PMIC</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i601" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i553" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Measurement UI.vi</DestinationRelativePath>
                     <Name>Measurement UI.vi</Name>
                     <SourceItem z:Ref="i146" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i602" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i554" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.aliases</DestinationRelativePath>
                     <Name>Ripple_PMIC.aliases</Name>
                     <SourceItem z:Ref="i147" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i603" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i555" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.exe</DestinationRelativePath>
                     <Name>Ripple_PMIC.exe</Name>
                     <SourceItem z:Ref="i148" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i604" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i556" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.ini</DestinationRelativePath>
                     <Name>Ripple_PMIC.ini</Name>
                     <SourceItem z:Ref="i149" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i605" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i557" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.lvlib</DestinationRelativePath>
                     <Name>Ripple_PMIC.lvlib</Name>
                     <SourceItem z:Ref="i150" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i606" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i558" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Ripple_PMIC.serviceconfig</DestinationRelativePath>
                     <Name>Ripple_PMIC.serviceconfig</Name>
                     <SourceItem z:Ref="i151" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i607" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i559" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i608" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i560" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i609" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i561" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i142" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i610" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i562" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i611" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i563" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i143" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i612" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i564" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i613" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i565" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i144" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i614" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i566" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i615" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i567" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Ripple_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i145" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i568" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i569" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.aliases</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.aliases</Name>
+                    <SourceItem z:Ref="i157" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i570" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.exe</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.exe</Name>
+                    <SourceItem z:Ref="i158" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i571" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.ini</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.ini</Name>
+                    <SourceItem z:Ref="i159" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i572" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Single Point_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_PMIC.serviceconfig</Name>
+                    <SourceItem z:Ref="i160" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i573" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i574" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\BuiltUI\Single Point_Channel Ganging_UI.lvlibp</DestinationRelativePath>
+                    <Name>Single Point_Channel Ganging_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i152" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i575" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i576" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i577" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i153" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i578" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i579" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i154" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i580" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i581" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i155" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i582" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i583" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Single Point_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i156" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i584" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i585" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.aliases</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_PMIC.aliases</Name>
+                    <SourceItem z:Ref="i166" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i586" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.exe</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_PMIC.exe</Name>
+                    <SourceItem z:Ref="i167" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i587" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.ini</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_PMIC.ini</Name>
+                    <SourceItem z:Ref="i168" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i588" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Sweep_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_PMIC.serviceconfig</Name>
+                    <SourceItem z:Ref="i169" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i589" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i590" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\BuiltUI\Sweep_Channel Ganging_UI.lvlibp</DestinationRelativePath>
+                    <Name>Sweep_Channel Ganging_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i161" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i591" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i592" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i593" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i162" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i594" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i595" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i163" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i596" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i597" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i164" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i598" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i599" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Sweep_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i165" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i600" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging_PMIC</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i601" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.aliases</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging_PMIC.aliases</Name>
+                    <SourceItem z:Ref="i175" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i602" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.exe</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging_PMIC.exe</Name>
+                    <SourceItem z:Ref="i176" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i603" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.ini</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging_PMIC.ini</Name>
+                    <SourceItem z:Ref="i177" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i604" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Waveform Mode_Channel Ganging_PMIC.serviceconfig</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging_PMIC.serviceconfig</Name>
+                    <SourceItem z:Ref="i178" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i605" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i606" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\BuiltUI\Waveform Mode_Channel Ganging UI.lvlibp</DestinationRelativePath>
+                    <Name>Waveform Mode_Channel Ganging UI.lvlibp</Name>
+                    <SourceItem z:Ref="i170" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i607" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i608" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i609" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i171" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i610" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i611" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i172" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i612" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i613" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i173" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i614" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i615" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\PMIC\Waveform Mode_Channel Ganging_PMIC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i174" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
