@@ -186,7 +186,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{29B613CA-3F03-4D3C-BAE0-C33BBC97BF68}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/Eff and Load Reg_Channel Ganging_PMIC.exe</Property>
@@ -197,7 +197,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Eff and Load Reg_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A337DA1A-8C6A-485B-8D1C-B5511B125D40}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0D3A4A87-3374-418F-A0AD-A78F46363D14}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging.lvlib/Get Measurement Details.vi</Property>
@@ -250,7 +250,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C170454-CEFD-4D9B-B8A4-1BE121E428E3}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Eff And Load Reg_Channel Ganging_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Eff And Load Reg_Channel Ganging_UI.lvlibp</Property>
@@ -262,7 +262,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9FCE9C9E-2A72-429F-B597-9364CC035A81}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7B8B92AF-388B-4F18-9100-B79F90E80006}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eff And Load Reg_Channel Ganging_UI.lvlib</Property>
