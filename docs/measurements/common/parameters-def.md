@@ -17,6 +17,9 @@
 5. Level Dwell Time:
    Specifies the amount of time each setpoint value holds.
 
+6. Measurement Time-out:
+   Configure this parameter in case of timeout error given by efficiency measurement. It will be good practice configure this control with more time around 100s when number of sweep step is more than 251.
+   
 ## Source configuration
 
 1. Current Limit:
