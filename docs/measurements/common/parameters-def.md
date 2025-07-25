@@ -18,7 +18,7 @@
    Specifies the amount of time each setpoint value holds.
 
 6. Measurement Time-out:
-   Configure this parameter in case of timeout error given by efficiency measurement. It will be good practice configure this control with more time around 100s when number of sweep step is more than 251.
+   Specifies the duration of time in which a measurement must be completed. A measurement will be aborted if the measurement time-out duration has been reached before the measurement is complete. In the case of a timeout error, it is recommended to increase this parameter. For a sweep with more than 250 steps, the recommended Measurement Time-out is 100 seconds.
    
 ## Source configuration
 
