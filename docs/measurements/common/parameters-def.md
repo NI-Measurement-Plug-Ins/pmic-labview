@@ -17,6 +17,9 @@
 5. Level Dwell Time:
    Specifies the amount of time each setpoint value holds.
 
+6. Measurement Time-out:
+   Specifies the duration of time in which a measurement must be completed. A measurement will be aborted if the measurement time-out duration has been reached before the measurement is complete. In the case of a timeout error, it is recommended to increase this parameter. For a sweep with more than 250 steps, the recommended Measurement Time-out is 100 seconds.
+   
 ## Source configuration
 
 1. Current Limit:
