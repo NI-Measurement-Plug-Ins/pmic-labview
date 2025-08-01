@@ -18,6 +18,9 @@
 			<Item Name="Setup DCPower Voltage Sequence.vi" Type="VI" URL="../Instrument Control/DCPower/Setup DCPower Voltage Sequence.vi"/>
 			<Item Name="Setup DCPower Voltage.vi" Type="VI" URL="../Instrument Control/DCPower/Setup DCPower Voltage.vi"/>
 		</Item>
+		<Item Name="DMM" Type="Folder">
+			<Item Name="Setup DMM to Acquire Multiple Samples.vi" Type="VI" URL="../Instrument Control/DMM/Setup DMM to Acquire Multiple Samples.vi"/>
+		</Item>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="TClk" Type="Folder">
 				<Item Name="Create Connection Map From Pin Map File.vi" Type="VI" URL="../Instrument Control/Scope/TClk/Create Connection Map From Pin Map File.vi"/>
@@ -36,6 +39,7 @@
 		<Item Name="DCPower Parameters for Adv Sequence.ctl" Type="VI" URL="../Instrument Control/DCPower Parameters for Adv Sequence.ctl"/>
 		<Item Name="DCPower Parameters for Sequence.ctl" Type="VI" URL="../Instrument Control/DCPower Parameters for Sequence.ctl"/>
 		<Item Name="DCPower Parameters.ctl" Type="VI" URL="../Instrument Control/DCPower Parameters.ctl"/>
+		<Item Name="DMM Parameters.ctl" Type="VI" URL="../Instrument Control/DMM Parameters.ctl"/>
 		<Item Name="Scope Parameters.ctl" Type="VI" URL="../Instrument Control/Scope Parameters.ctl"/>
 	</Item>
 	<Item Name="PMIC" Type="Folder">
@@ -54,12 +58,14 @@
 			<Item Name="Multiple SourceAdapt Parameters.ctl" Type="VI" URL="../UI/controls/Multiple SourceAdapt Parameters.ctl"/>
 			<Item Name="Open Dialog.ctl" Type="VI" URL="../UI/controls/Open Dialog.ctl"/>
 			<Item Name="SourceAdapt Parameters.ctl" Type="VI" URL="../UI/controls/SourceAdapt Parameters.ctl"/>
+			<Item Name="UI DMM Parameters.ctl" Type="VI" URL="../UI/controls/UI DMM Parameters.ctl"/>
 			<Item Name="UI Scope Parameters.ctl" Type="VI" URL="../UI/controls/UI Scope Parameters.ctl"/>
 			<Item Name="view.ctl" Type="VI" URL="../UI/controls/view.ctl"/>
 		</Item>
 		<Item Name="dialogs" Type="Folder">
 			<Item Name="Custom Transient Response for Setpoints.vi" Type="VI" URL="../UI/dialogs/Custom Transient Response for Setpoints.vi"/>
 			<Item Name="Custom Transient Response for Sweep &amp; Single Point.vi" Type="VI" URL="../UI/dialogs/Custom Transient Response for Sweep &amp; Single Point.vi"/>
+			<Item Name="DMM Settings Dialog.vi" Type="VI" URL="../UI/dialogs/DMM Settings Dialog.vi"/>
 			<Item Name="Scope Settings Dialog.vi" Type="VI" URL="../UI/dialogs/Scope Settings Dialog.vi"/>
 		</Item>
 	</Item>
@@ -75,6 +81,7 @@
 		<Item Name="Is Uniform DBL Array.vi" Type="VI" URL="../Utility/Is Uniform DBL Array.vi"/>
 		<Item Name="Is Uniform I32 Array.vi" Type="VI" URL="../Utility/Is Uniform I32 Array.vi"/>
 		<Item Name="Is Uniform String Array.vi" Type="VI" URL="../Utility/Is Uniform String Array.vi"/>
+		<Item Name="Join Doubles with Comma.vi" Type="VI" URL="../Utility/Join Doubles with Comma.vi"/>
 		<Item Name="Restore Waveform Array.vi" Type="VI" URL="../Utility/Restore Waveform Array.vi"/>
 	</Item>
 </Library>

@@ -11,17 +11,34 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Additional measurements.ctl" Type="VI" URL="../subVIs/Additional measurements.ctl"/>
 		<Item Name="Calculate Efficiency.vi" Type="VI" URL="../subVIs/Calculate Efficiency.vi"/>
 		<Item Name="Calculate Input Voltage Values.vi" Type="VI" URL="../subVIs/Calculate Input Voltage Values.vi"/>
 		<Item Name="Calculate Load Current Array.vi" Type="VI" URL="../subVIs/Calculate Load Current Array.vi"/>
 		<Item Name="Calculate Source Voltage Array.vi" Type="VI" URL="../subVIs/Calculate Source Voltage Array.vi"/>
+		<Item Name="Configure Trigger for Load.vi" Type="VI" URL="../subVIs/Configure Trigger for Load.vi"/>
+		<Item Name="Configure Trigger for Source.vi" Type="VI" URL="../subVIs/Configure Trigger for Source.vi"/>
+		<Item Name="Create and Validate Initial Source Parameters.vi" Type="VI" URL="../subVIs/Create and Validate Initial Source Parameters.vi"/>
+		<Item Name="Create DMM Parameters.vi" Type="VI" URL="../subVIs/Create DMM Parameters.vi"/>
+		<Item Name="Create Initial Load Parameters.vi" Type="VI" URL="../subVIs/Create Initial Load Parameters.vi"/>
+		<Item Name="Create Initial Source Parameters.vi" Type="VI" URL="../subVIs/Create Initial Source Parameters.vi"/>
+		<Item Name="Create Load Sequence Parameters.vi" Type="VI" URL="../subVIs/Create Load Sequence Parameters.vi"/>
+		<Item Name="Create Scope Parameters.vi" Type="VI" URL="../subVIs/Create Scope Parameters.vi"/>
+		<Item Name="Create Source Sequence Parameters.vi" Type="VI" URL="../subVIs/Create Source Sequence Parameters.vi"/>
 		<Item Name="Create Step Parameters.vi" Type="VI" URL="../subVIs/Create Step Parameters.vi"/>
+		<Item Name="Export Trigger from Load for DMM Synchronization.vi" Type="VI" URL="../subVIs/Export Trigger from Load for DMM Synchronization.vi"/>
+		<Item Name="Fetch Single Point From All DMMs.vi" Type="VI" URL="../subVIs/Fetch Single Point From All DMMs.vi"/>
+		<Item Name="Fetch Single Point From All Sources.vi" Type="VI" URL="../subVIs/Fetch Single Point From All Sources.vi"/>
+		<Item Name="Fetch Single Point From Load.vi" Type="VI" URL="../subVIs/Fetch Single Point From Load.vi"/>
+		<Item Name="Get Enabled Scope Pin Names.vi" Type="VI" URL="../subVIs/Get Enabled Scope Pin Names.vi"/>
 		<Item Name="Get Initial Load Current.vi" Type="VI" URL="../subVIs/Get Initial Load Current.vi"/>
-		<Item Name="Get Initial Source Voltage.vi" Type="VI" URL="../subVIs/Get Initial Source Voltage.vi"/>
+		<Item Name="Get Initial Source Voltage Array.vi" Type="VI" URL="../subVIs/Get Initial Source Voltage Array.vi"/>
+		<Item Name="Initiate Source And Load Sequence And Wait.vi" Type="VI" URL="../subVIs/Initiate Source And Load Sequence And Wait.vi"/>
 		<Item Name="Perform Measurements.vi" Type="VI" URL="../subVIs/Perform Measurements.vi"/>
 		<Item Name="Reference values.ctl" Type="VI" URL="../subVIs/Reference values.ctl"/>
 		<Item Name="Save Results to TDMS.vi" Type="VI" URL="../subVIs/Save Results to TDMS.vi"/>
 		<Item Name="Update Measurement Results.vi" Type="VI" URL="../subVIs/Update Measurement Results.vi"/>
+		<Item Name="Validate Source Parameters.vi" Type="VI" URL="../subVIs/Validate Source Parameters.vi"/>
 	</Item>
 	<Item Name="Get Service Descriptor.vi" Type="VI" URL="../Get Service Descriptor.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
