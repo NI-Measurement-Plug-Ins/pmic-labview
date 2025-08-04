@@ -213,7 +213,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Short-Circuit.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FAFF82A1-C8C3-40E2-AA5F-549554DE6B84}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Short-Circuit.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">project/Plug-In SDKs/Measurements/NI_AB_PROJECTNAME/Short-Circuit.exe</Property>
@@ -224,7 +224,7 @@
 				<Property Name="Destination[1].path" Type="Path">project/Plug-In SDKs/Measurements/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{530DD7BB-8BE5-4F84-80EC-C8C0FA5AA5CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04471F4D-87FF-4506-B4DD-98D8117BFBC8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Short-Circuit.lvlib/Get Measurement Details.vi</Property>
@@ -278,7 +278,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FA9BE995-BF6F-4EC0-B18A-F3F8DC111BC1}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Short-Circuit UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Short-Circuit UI.lvlibp</Property>
@@ -290,7 +290,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{530DD7BB-8BE5-4F84-80EC-C8C0FA5AA5CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04471F4D-87FF-4506-B4DD-98D8117BFBC8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Short-Circuit UI.lvlib</Property>
