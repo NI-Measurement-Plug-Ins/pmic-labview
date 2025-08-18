@@ -15,6 +15,9 @@
 		<Item Name="shared" Type="Folder" URL="../../../shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Sub-VI" Type="Folder">
+			<Item Name="Calculate Duty Cycle.vi" Type="VI" URL="../PWM Dimming/Sub-VI/Calculate Duty Cycle.vi"/>
+		</Item>
 		<Item Name="PWM Dimming UI.lvlib" Type="Library" URL="../PWM Dimming UI/PWM Dimming UI.lvlib"/>
 		<Item Name="PWM Dimming.lvlib" Type="Library" URL="../PWM Dimming/PWM Dimming.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -315,7 +318,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5662B0D8-646C-447B-A6FF-CCE2A8D3334B}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PWM Dimming UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/PWM Dimming UI.lvlibp</Property>
@@ -327,7 +330,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B308E7CE-5115-4DE8-9B08-D7D29CA8B2FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{127997CC-ACC9-4E40-9492-EBB67F229E04}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PWM Dimming UI.lvlib</Property>
