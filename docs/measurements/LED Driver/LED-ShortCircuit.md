@@ -1,10 +1,12 @@
-# Line Regulation
+# Short Circuit
 This service performs LED Driver Short Circuit measurement.
 
 ## Hardware Setup
 
    Hardware Setup for Short Circuit measurement is made as mentioned below. To Perform Short-Circuit measurement, DUT output path connection is switched between Load and DMM, to capture both Pre-Short and Post-Short condition.  
+   
    i. During Pre-Short,only the Relay connected to Load is Activated.
+   
    ii.During Post-Short , Relay connected to Load is De-Activated and the Relay connected to DMM is Activated, to measure the Short-Circuit current.
 
    Note: By default both the Relays are maintained in De-Activated state.
