@@ -11,7 +11,7 @@ This service performs LED Driver Short Circuit measurement.
 
    Note: By default both the Relays are maintained in De-Activated state.
    
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED_SCT_Setup.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_HWSetup.png)
 
 ## InstrumentStudio Panel
 
