@@ -17,6 +17,7 @@
 		</Item>
 		<Item Name="Sub-VI" Type="Folder">
 			<Item Name="Calculate Duty Cycle.vi" Type="VI" URL="../PWM Dimming/Sub-VI/Calculate Duty Cycle.vi"/>
+			<Item Name="PWM measurement data.ctl" Type="VI" URL="../PWM Dimming/Sub-VI/PWM measurement data.ctl"/>
 		</Item>
 		<Item Name="PWM Dimming UI.lvlib" Type="Library" URL="../PWM Dimming UI/PWM Dimming UI.lvlib"/>
 		<Item Name="PWM Dimming.lvlib" Type="Library" URL="../PWM Dimming/PWM Dimming.lvlib"/>
@@ -257,7 +258,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/PWM Dimming.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A9B5F9EC-0D17-4022-AFF6-F22E1A7F945C}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PWMDimming.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/PWMDimming.exe</Property>
@@ -268,7 +269,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4073E6A5-80EA-451C-8887-870A533F6CDA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C21EC8D8-5285-4C17-A5DB-1C06E6EA9238}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PWM Dimming.lvlib/Get Measurement Details.vi</Property>
@@ -321,7 +322,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5662B0D8-646C-447B-A6FF-CCE2A8D3334B}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PWM Dimming UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/PWM Dimming UI.lvlibp</Property>
@@ -333,7 +334,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4073E6A5-80EA-451C-8887-870A533F6CDA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8D8CB9D-3145-4B2B-87A6-729FD76BDE13}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PWM Dimming UI.lvlib</Property>
