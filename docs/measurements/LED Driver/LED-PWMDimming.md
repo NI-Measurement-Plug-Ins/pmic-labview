@@ -38,14 +38,14 @@ This service performs LED Driver PWM dimming measurement.
    
    PWM Dimming Measurement Configuration 1:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-single-92200D1.PNG)
-   PWM Dimming Measurement Configuration 1:
+   PWM Dimming Measurement Configuration 2:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-waveform-92200D1.png)
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-OP-VS-IP-92200D1.png)
 
    
 ## Hardware Setup 2
 
-   Hardware Setup for PWM Dimming measurement is made as mentioned below with TPS92200D1.
+   Hardware Setup for PWM Dimming measurement is made as mentioned below with TPS92621.
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-HW-92621.png)
    
 
@@ -80,6 +80,6 @@ This service performs LED Driver PWM dimming measurement.
    
    PWM Dimming Measurement Configuration 1:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-single-92621.PNG)
-   PWM Dimming Measurement Configuration 1:
+   PWM Dimming Measurement Configuration 2:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-waveform-92621.png)
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-OP-VS-IP-92621.png)
