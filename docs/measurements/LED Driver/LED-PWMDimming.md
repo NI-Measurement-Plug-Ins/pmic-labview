@@ -7,16 +7,18 @@ This service performs LED Driver PWM dimming measurement.
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-HW-92200D1.png)
    
 
-## InstrumentStudio Panel for Setup 1
+## Instrument Studio Panel for Setup 1
 
 ### Usage
 
-1. Select the appropriate source and load resource names and update other parameters as needed in Meas, PWM source and PWM capture configuration.
+1. Select the appropriate source and load resource names and update other parameters as needed in Measurement, PWM source and PWM capture configuration.
 
    Measurement Configuration:
-     There are two mode for duty cycle one is constant duty cycle ran multiple time and other is sweeping duty cycle through boolean control DUTY CYCLE SINGLE PULSE/SWEEP PULSE
+     There are two mode for duty cycle one is constant duty cycle ran multiple time and other is sweeping duty cycle through boolean control "DUTY CYCLE SINGLE PULSE/SWEEP PULSE".
+   
      Configuration 1:
      ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-single-92200D1.png)
+
      Configuration 2:
      ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-sweep-92200D1.png)
 
@@ -49,16 +51,18 @@ This service performs LED Driver PWM dimming measurement.
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-HW-92621.png)
    
 
-## InstrumentStudio Panel for Setup 2
+## Instrument Studio Panel for Setup 2
 
 ### Usage
 
-1. Select the appropriate source and load resource names and update other parameters as needed in Meas, PWM source and PWM capture configuration.
+1. Select the appropriate source and load resource names and update other parameters as needed in Measurement, PWM source and PWM capture configuration.
 
    Measurement Configuration:
-     There are two mode for duty cycle one is constant duty cycle ran multiple time and other is sweeping duty cycle through boolean control DUTY CYCLE SINGLE PULSE/SWEEP PULSE
+     There are two mode for duty cycle one is constant duty cycle ran multiple time and other is sweeping duty cycle through boolean control "DUTY CYCLE SINGLE PULSE/SWEEP PULSE".
+   
      Configuration 1:
      ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-single-92621.png)
+
      Configuration 2:
      ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-sweep-92621.png)
 
