@@ -18,10 +18,10 @@ This service performs LED Driver PWM dimming measurement.
 Note: Except load configuration all the configurations are same for TPS92200D1 and TPS92621Q1 EVM.
    
    Measurement Configuration 1:
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-single-92200D1.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-single.png)
 
    Measurement Configuration 2:
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-sweep-92200D1.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-sweep.png)
 
    Source Configuration:   
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-source-config-92621.png)
@@ -33,10 +33,10 @@ Note: Except load configuration all the configurations are same for TPS92200D1 a
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-load-config-92621.png)
  
    PWM Source Configuration: 
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-AWG-config-92200D1.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-AWG-config.png)
  
    PWM Capture Configuration: 
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-scope-config-92200D1.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-scope-config.png)
 
   
 3. Run the measurement. The graphs should be visible without any error.
