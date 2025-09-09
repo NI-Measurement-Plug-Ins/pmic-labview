@@ -48,7 +48,7 @@ Note: Except load configuration all the configurations are same for TPS92200D1 a
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-OP-VS-IP-92200D1.png)
  
    PWM Dimming Measurement Configuration 1 for TPS92621Q1 EVM:
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-single-92621.PNG)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-single-92621.png)
    PWM Dimming Measurement Configuration 2 for TPS92621Q1 EVM:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-waveform-92621.png)
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-results-sweep-OP-VS-IP-92621.png)
