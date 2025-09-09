@@ -3,7 +3,7 @@ This service performs PWM dimming measurement for LED Driver.
 
 ## Hardware Setup
 
-   Hardware Setup for PWM Dimming measurement is made as mentioned below with TPS92200D1.
+   Hardware Setup for PWM Dimming measurement is made as mentioned below with TPS92200D1 EVM and TPS92621Q1 EVM.
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-HW-Setup.png)
    
 
