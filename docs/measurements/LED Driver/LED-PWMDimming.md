@@ -15,7 +15,7 @@ This service performs PWM dimming measurement for LED Driver.
 
    Measurement Configuration:
      There are two mode for duty cycle one is constant duty cycle ran multiple time and other is sweeping duty cycle through boolean control "DUTY CYCLE SINGLE PULSE/SWEEP PULSE".
-Note: Except load configuration all the configurations are same for TPS92200D1 and TPS92621Q1 EVM.
+Note: Soure and load configuration for TPS92200D1 and TPS92621Q1 EVM are different other settings are same.
    
    Measurement Configuration 1:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-single.png)
@@ -23,13 +23,16 @@ Note: Except load configuration all the configurations are same for TPS92200D1 a
    Measurement Configuration 2:
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-meas-config-sweep.png)
 
-   Source Configuration:   
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-source-config-92621.png)
+   Source Configuration for TPS92200D1 EVM:   
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-source-config.png)
+
+   Source Configuration for TPS92621Q1 EVM:   
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-source-config.png)
 
    Load Configuration for TPS92200D1 EVM:   
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-load-config-92200D1.png)
  
-   Load Configuration for TPS92621 EVM:   
+   Load Configuration for TPS92621Q1 EVM:   
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED-PWM-load-config-92621.png)
  
    PWM Source Configuration: 
