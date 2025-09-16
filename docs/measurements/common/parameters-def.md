@@ -19,6 +19,7 @@
 
 6. Measurement Time-out:
    Specifies the duration of time in which a measurement must be completed. A measurement will be aborted if the measurement time-out duration has been reached before the measurement is complete. In the case of a timeout error, it is recommended to increase this parameter. For a sweep with more than 250 steps, the recommended Measurement Time-out is 100 seconds.
+
    
 ## Source configuration
 
@@ -87,6 +88,55 @@
 
 3. Probe attenuation:
    Specifies probe attenuation value of scope instrument.
+
+## Duty Cycle configuration
+
+1. Duty Cycle Single Pulse/ Sweep Pulse:
+   Specifies if single duty cycle is repeated or Sweep the duty cycle from start and stop point.
+
+2. Frequency:
+   Specifies the frequency at which AWG will source PWM signal and Load SMU will sink.
+
+3. Duty Cycle:
+   Specifies the pulse ON of cycle in percentage.
+
+4. Number of Pulse Cycle:
+   Specifies the number of cycle pulse will be repeated.
+
+5. Start Duty Cycle:
+   Specifies the starting set-point of the duty cycle sweep.
+
+6. Stop Duty Cycle:
+   Specifies the final setpoint of the duty cycle sweep.
+
+7. Number of Sweep Points:
+   If the sweep type is Linear, specifies the total number of points in the sweep. For Logarithmic sweep type, specifies the number of points per decade.
+
+8. Sweep Type:
+   Specifies whether the configured sweep is linear or logarithmic for duty cycle
+   
+# PWM Source configuration
+
+1. Resource name:
+   Specifies the AWG Resource name for PWM generation
+
+2. Amplitude:
+   Specifies Amplitude at which AWG will generate signal
+
+3. DC Offset:
+   Specifies the offset of the PWM signal
+
+4. Load Impedence:
+   Specifies the Load Impedence in three values Match Output, High Z and Custom
+
+5. Load Impedence Custom:
+   Specifies the Load Impedence value for AWG, enabled if load impedence is custom 
+
+6. Source Trigger:
+   Configures the start trigger of AWG for edge triggering.
+
+7. Measure Trigger:
+   Configure the measure trigger for exporting the selected signal for starting edge triggering for AWG from Load.
 
 ## Known Issues
 
