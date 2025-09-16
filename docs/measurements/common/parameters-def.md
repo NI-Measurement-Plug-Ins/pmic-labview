@@ -115,7 +115,7 @@
 8. Sweep Type:
    Specifies whether the configured sweep is linear or logarithmic for duty cycle
    
-# PWM Source configuration
+## PWM Source configuration
 
 1. Resource name:
    Specifies the AWG Resource name for PWM generation
