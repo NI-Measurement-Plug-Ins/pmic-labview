@@ -1,44 +1,42 @@
-# Short Circuit
-This service performs LED Driver Short Circuit measurement.
+# Startup
+This service performs LED Driver Startup measurement.
 
 ## Hardware Setup
 
-   Hardware Setup for Short Circuit measurement is made as mentioned below. To Perform Short-Circuit measurement, DUT output path connection is switched between Load and DMM, to capture both Pre-Short and Post-Short condition.  
+   Hardware Setup for LED Startup measurement is made as mentioned below. 
    
-   i. During Pre-Short,only the Relay connected to Load is Activated.
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_HWSetup.png)
    
-   ii.During Post-Short , Relay connected to Load is De-Activated and the Relay connected to DMM is Activated, to measure the Short-Circuit current.
+   The Startup Measurement is implemented with PXIe-4139,acting as Emulated LED Load. The LED Load mimic, requires combination of CV and CR Mode, with LED Parameters defined 'Vo','Vd' & 'Io' for LED operation. The CR Mode implentation using PXIe-4139 is based on specification provided in PXIe-4139 manual(page 10), where different Resistance Range supported against the 'Current Limit Range' is provided.
 
-   Note: By default both the Relays are maintained in De-Activated state.
-   
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_HWSetup.png)
+   Note: For Parameter definition , advised to refer 'parameters-def.md'   
 
 ## InstrumentStudio Panel
 
 ### Usage
 
-1. Select the appropriate source and load resource names and update other parameters as needed in Switch Config,DMM Config and Short Circuit configuration.
+1. Select the appropriate source and load resource names and update other parameters as needed in Measurement Config,Source Config and Load configuration.
 
    Measurement Configuration:
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_Measurement_Config.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_MeasConfig.png)
 
    Source Configuration:   
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_Source_Config.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_SourceConfig.png)
 
    Load Configuration:   
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_Load_Config.png)
- 
-   Switch Module Configuration: 
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_Switch_Config.png)
- 
-   DMM Module Configuration: 
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_DMM_Config.png)
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_LoadConfig.png)
+    
 
-   Short-Circuit Test Configuration:   
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_Config.png)
+2. Run the measurement. The graphs should be visible without any error.
 
-2. Run the measurement. The graphs should be visible without any error, shows the Pre-Short and Post-Short Circuit measurement results.
+   Case 1: Expected Output Current(Io) is more than the minimum current, that can be sinked in CR Mode, with provided Output Voltage(Vo). 
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_gt_Imin.png)
 
-   Short-Circuit Measurement:
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_SCT_Measurement_Result.png)
-
+   Case 2: Expected Output Current(Io) is less than the minimum current, that can be sinked in CR Mode, with provided Output Voltage(Vo). 
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_lt_Imin.png)
+   
+   Case 3: DUT Current limit is below the Load 'Current Limit Range'. 
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_upto_I_DUT.png)
+      
+   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_upto_I_DUT2.png)
+   
