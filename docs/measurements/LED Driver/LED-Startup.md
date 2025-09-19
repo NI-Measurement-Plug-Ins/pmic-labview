@@ -7,7 +7,7 @@ This service performs LED Driver Startup measurement.
    
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/SC_Document/docs/measurements/meas-images/LED_Driver/LED_Startup_HWSetup.png)
    
-   The Startup Measurement is implemented with PXIe-4139,acting as Emulated LED Load. The LED Load mimic, requires combination of CV and CR Mode, with LED Parameters defined 'Vo','Vd' & 'Io' for LED operation. The CR Mode implentation using PXIe-4139 is based on specification provided in PXIe-4139 manual(page 10), where different Resistance Range supported against the 'Current Limit Range' is provided.
+   The Startup Measurement is implemented with PXIe-4139,acting as Emulated LED Load. The LED Load mimic, requires combination of CV and CR Mode, with LED Parameters defined 'Vo','Vd' & 'Io' for LED operation. The CR Mode implementation using PXIe-4139 is based on specification provided in PXIe-4139 manual(page 10), where different Resistance Range supported against the 'Current Limit Range' is provided.
 
    Note: For Parameter definition , advised to refer 'parameters-def.md'   
 
