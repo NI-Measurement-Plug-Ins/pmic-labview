@@ -1,15 +1,16 @@
-# Startup
-This service performs LED Driver Startup measurement.
+# Start-up
+This service performs LED Driver Start-up measurement.
 
 ## Hardware Setup
 
-   Hardware Setup for LED Startup measurement is made as mentioned below. 
+   Hardware Setup for LED Start-up measurement is made as mentioned below, with Buck Regulator type LED Driver DUT. 
    
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/users/bkumarng-NI/LED_Startup_Documentation/docs/measurements/meas-images/LED_Driver/LED_Startup_HWSetup.png)
    
-   The Startup Measurement is implemented with PXIe-4139,acting as Emulated LED Load. The LED Load mimic, requires combination of CV and CR Mode, with LED Parameters defined 'Vo','Vd' & 'Io' for LED operation. The CR Mode implementation using PXIe-4139 is based on specification provided in PXIe-4139 manual(page 10), where different Resistance Range supported against the 'Current Limit Range' is provided.
+   The Start-up Measurement is implemented with PXIe-4139,acting as Emulated LED Load. The LED Load mimic, requires combination of CV and CR Mode, with LED Parameters defined 'Vo','Vd' & 'Io' for LED operation. The CR Mode implementation using PXIe-4139 is based on specification provided in PXIe-4139 manual(page 10), where different Resistance Range supported against the 'Current Limit Range' , in 'Voltage Mode' is provided.
 
-   Note: For Parameter definition , advised to refer 'parameters-def.md'   
+   Note: i. 'Voltage Start Level','Voltage Stop Level' parameters in 'Source Configuration' tab corresponds to Input Voltage range of DUT.
+         ii. For Parameter definition used in start-up Measurement , advised to refer 'parameters-def.md'   
 
 ## InstrumentStudio Panel
 
@@ -29,14 +30,13 @@ This service performs LED Driver Startup measurement.
 
 2. Run the measurement. The graphs should be visible without any error.
 
-   Case 1: Expected Output Current(Io) is more than the minimum current, that can be sinked in CR Mode, with provided Output Voltage(Vo). 
+   Case 1: Expected Output Current(Io) is more than the minimum current, that can be sinked in CR Mode, with provided Output Voltage(Vo). In this case multiple points along V-I curve is plotted , upto the 'DUT Current Limit/Load Current limit range'.
+   
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/users/bkumarng-NI/LED_Startup_Documentation/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_gt_Imin.png)
 
-   Case 2: Expected Output Current(Io) is less than the minimum current, that can be sinked in CR Mode, with provided Output Voltage(Vo). 
+   Case 2: Expected Output Current(Io) is less than the minimum current, that can be sinked in CR Mode, with provided Output Voltage(Vo). In this case only single point is plotted in the V-I curve.
+   
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/users/bkumarng-NI/LED_Startup_Documentation/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_lt_Imin.png)
    
-   Case 3: DUT Current limit is below the Load 'Current Limit Range'. 
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/users/bkumarng-NI/LED_Startup_Documentation/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_upto_%20I_DUT.png)
-      
-   ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/users/bkumarng-NI/LED_Startup_Documentation/docs/measurements/meas-images/LED_Driver/LED_Startup_Io_upto_%20I_DUT2.png)
+
    
