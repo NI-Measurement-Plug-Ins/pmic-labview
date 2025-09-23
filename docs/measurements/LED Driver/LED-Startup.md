@@ -9,7 +9,8 @@ This service performs LED Driver Start-up measurement.
    
    The Start-up Measurement is implemented with PXIe-4139,acting as Emulated LED Load. The LED Load mimic, requires combination of CV and CR Mode, with LED Parameters defined 'Vo','Vd' & 'Io' for LED operation. The CR Mode implementation using PXIe-4139 is based on specification provided in PXIe-4139 manual(page 10), where different Resistance Range supported against the 'Current Limit Range' , in 'Voltage Mode' is provided.
 
-   Note: i. 'Voltage Start Level','Voltage Stop Level' parameters in 'Source Configuration' tab corresponds to Input Voltage range of DUT.
+   Note: 
+         i. 'Voltage Start Level','Voltage Stop Level' parameters in 'Source Configuration' tab corresponds to Input Voltage range of DUT.   
          ii. For Parameter definition used in start-up Measurement , advised to refer 'parameters-def.md'   
 
 ## InstrumentStudio Panel
