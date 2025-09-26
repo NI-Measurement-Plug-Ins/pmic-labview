@@ -1,9 +1,9 @@
-# Start-up
-This service performs LED Driver Start-up measurement.
+# Start-Up
+This service performs LED Driver Start-Up measurement.
 
 ## Hardware Setup
 
-   Hardware Setup for LED Start-up measurement is made as mentioned below, with Buck Regulator type LED Driver DUT. 
+   Hardware Setup for LED Start-Up measurement is made as mentioned below, with Buck Regulator type LED Driver DUT. 
    
    ![alt text](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/meas-images/LED_Driver/LED_Startup_HWSetup.png)
    
@@ -11,7 +11,7 @@ This service performs LED Driver Start-up measurement.
 
    Note: 
          i. 'Voltage Start Level', 'Voltage Stop Level' parameters in 'Source Configuration' tab corresponds to the Input Voltage range of DUT.   
-         ii. For Parameter definition used in start-up Measurement, please refer to 'parameters-def.md'   
+         ii. For parameter defination of Start-Up Measurement refer to [Parameters def](https://github.com/NI-Measurement-Plug-Ins/pmic-labview/blob/main/docs/measurements/common/parameters-def.md)
 
 ## InstrumentStudio Panel
 
