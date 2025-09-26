@@ -39,9 +39,10 @@ Click here for a detailed list of measurements and their functionality: [Measure
 
 - NI Programmable Power Supply (PXIe-4151)
 - NI Electronic Load (PXIe-4051)
-- NI Oscilloscope (PXI-5122) (note: required for Ripple measurement)
+- NI Oscilloscope (PXI-5122) (note: required for Ripple measurement and LED Driver measurements)
 - NI DMM (PXIe-4081) (note: required for LED Driver measurement)
 - NI Switch (PXI-2568) (note: required for LED Driver measurement)
+- NI FGEN (PXIe-5433) (note: required for LED Driver measurement)
 - Cables (Current rated: 50A continous)
 - [optional] NI Digital Pattern Instrument (PXIe-6570/1) (note: the software does not include DPI or its dependencies, but it may be required to communicate with the DUT)
 
@@ -62,7 +63,8 @@ Install from NI Package Manager:
 - NI SDC Add-On (2023 Q4 or higher) (note: only if using DPI for DUT communication)
 - NI-SCOPE (2023 Q4 or higher) (note: if using Ripple measurement)
 - NI-DMM (2023 Q4 or higher) (note: if using LED Driver measurement)
-- NI-SWITCH (2023 Q4 or higher) (note: if using LED Driver measurement) 
+- NI-SWITCH (2023 Q4 or higher) (note: if using LED Driver measurement)
+- NI-FGEN (2023 Q4 or higher) (note: if using LED Driver measurement)
 
 Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
 
