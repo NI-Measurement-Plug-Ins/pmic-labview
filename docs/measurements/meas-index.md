@@ -22,6 +22,6 @@ Channel Ganging
   - [Q-Current](channel%20ganging/q-current.md)
 
 LED Driver
-  - [Start-up](LED%20Driver/LED-Startup.md)
+  - [Start-up](LED%20Driver/LED-Start-up.md)
   - [Short Circuit](LED%20Driver/LED-ShortCircuit.md)
   - [PWM Dimming](LED%20Driver/LED-PWMDimming.md)
