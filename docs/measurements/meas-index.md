@@ -20,3 +20,8 @@ Channel Ganging
   - [Load Transient Response](channel%20ganging/load-transient.md)
   - [Line Transient Response](channel%20ganging/line-transient.md)
   - [Q-Current](channel%20ganging/q-current.md)
+
+LED Driver
+  - [Start-up](LED%20Driver/LED-Start-up.md)
+  - [Short Circuit](LED%20Driver/LED-ShortCircuit.md)
+  - [PWM Dimming](LED%20Driver/LED-PWMDimming.md)
