@@ -10,6 +10,17 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="Shared" Type="Folder">
+		<Item Name="ctl" Type="Folder">
+			<Item Name="Sweep fetch measurement control.ctl" Type="VI" URL="../Shared/ctl/Sweep fetch measurement control.ctl"/>
+			<Item Name="Sweep fetch measurement result.ctl" Type="VI" URL="../Shared/ctl/Sweep fetch measurement result.ctl"/>
+			<Item Name="Sweep perform meaasurement.ctl" Type="VI" URL="../Shared/ctl/Sweep perform meaasurement.ctl"/>
+		</Item>
+		<Item Name="sub vi" Type="Folder">
+			<Item Name="Fetch Measurement-Sweep.vi" Type="VI" URL="../Shared/sub vi/Fetch Measurement-Sweep.vi"/>
+			<Item Name="Perform Measurement.vi" Type="VI" URL="../Shared/sub vi/Perform Measurement.vi"/>
+		</Item>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
