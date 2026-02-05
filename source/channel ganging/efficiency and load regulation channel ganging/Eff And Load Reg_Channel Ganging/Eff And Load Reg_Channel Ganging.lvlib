@@ -10,6 +10,14 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Efficency fetch measurement control.ctl" Type="VI" URL="../Controls/Efficency fetch measurement control.ctl"/>
+		<Item Name="Efficency perform meaasurement.ctl" Type="VI" URL="../Controls/Efficency perform meaasurement.ctl"/>
+	</Item>
+	<Item Name="Sub VI" Type="Folder">
+		<Item Name="Fetch Measurement-Efficiency and Load Reg.vi" Type="VI" URL="../Sub VI/Fetch Measurement-Efficiency and Load Reg.vi"/>
+		<Item Name="Perform Measurement.vi" Type="VI" URL="../Sub VI/Perform Measurement.vi"/>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
