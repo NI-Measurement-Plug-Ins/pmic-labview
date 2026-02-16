@@ -10,6 +10,17 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Waveform Mode Measurement.ctl" Type="VI" URL="../Controls/Waveform Mode Measurement.ctl"/>
+	</Item>
+	<Item Name="SubVI" Type="Folder">
+		<Item Name="Configure Load to Sequence - ganged.vi" Type="VI" URL="../SubVI/Configure Load to Sequence - ganged.vi"/>
+		<Item Name="Configure Load to Sequence - Single.vi" Type="VI" URL="../SubVI/Configure Load to Sequence - Single.vi"/>
+		<Item Name="Configure Source to Sequence - Single.vi" Type="VI" URL="../SubVI/Configure Source to Sequence - Single.vi"/>
+		<Item Name="ConfigureSourcetoSequence-Ganged.vi" Type="VI" URL="../SubVI/ConfigureSourcetoSequence-Ganged.vi"/>
+		<Item Name="Fetch Measurement - WaveformMode.vi" Type="VI" URL="../SubVI/Fetch Measurement - WaveformMode.vi"/>
+		<Item Name="Perform Measurement - WaveformMode.vi" Type="VI" URL="../SubVI/Perform Measurement - WaveformMode.vi"/>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
