@@ -10,6 +10,17 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Perform measurement-control.ctl" Type="VI" URL="../Controls/Perform measurement-control.ctl"/>
+	</Item>
+	<Item Name="SubVI" Type="Folder">
+		<Item Name="Configure Load to Single Point-Single.vi" Type="VI" URL="../SubVI/Configure Load to Single Point-Single.vi"/>
+		<Item Name="Configure Load to Single-Ganged.vi" Type="VI" URL="../SubVI/Configure Load to Single-Ganged.vi"/>
+		<Item Name="Configure Source to Single Point-Single.vi" Type="VI" URL="../SubVI/Configure Source to Single Point-Single.vi"/>
+		<Item Name="Configure Source to Single-Ganged.vi" Type="VI" URL="../SubVI/Configure Source to Single-Ganged.vi"/>
+		<Item Name="Fetch Measurement - Single point.vi" Type="VI" URL="../SubVI/Fetch Measurement - Single point.vi"/>
+		<Item Name="Perform Measurement - Single Point.vi" Type="VI" URL="../SubVI/Perform Measurement - Single Point.vi"/>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
