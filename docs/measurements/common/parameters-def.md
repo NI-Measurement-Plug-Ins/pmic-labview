@@ -163,11 +163,11 @@
 3. DC Offset:
    Specifies the offset of the PWM signal
 
-4. Load Impedence:
-   Specifies the Load Impedence in three values Match Output, High Z and Custom
+4. Load Impedance:
+   Specifies the Load Impedance in three values Match Output, High Z and Custom
 
-5. Load Impedence Custom:
-   Specifies the Load Impedence value for AWG, enabled if load impedence is custom 
+5. Load Impedance Custom:
+   Specifies the Load Impedance value for AWG, enabled if load impedance is custom 
 
 6. Source Trigger:
    Configures the start trigger of AWG for edge triggering.
