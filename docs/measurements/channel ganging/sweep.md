@@ -28,6 +28,8 @@ Launch InstrumentStudio (2024 Q3 or higher) and open "Sweep Measurement".
 
 2. #### Power ON:
    In this mode of operation, a Voltage within the allowable operating range of the DUT is set in Voltage level, to Initialize. The DUT can be powered using either a single source or multiple ganged sources, depending on the selected configuration, as defined below:
+
+   (Note : Although this measurement can be executed with the DUT, in this case the setup operates in a loopback configuration).
    
    a) Configuration 1: Single Source
    
@@ -37,7 +39,7 @@ Launch InstrumentStudio (2024 Q3 or higher) and open "Sweep Measurement".
 
    ![alt text](../meas-images/Sweep_Meas_Images/power-on-ganged-source.png)
    
-3. #### Perform Measurement:
+4. #### Perform Measurement:
    This mode evaluates system behaviour under three operating states:
 
    i. Both Source and Load enabled
@@ -145,7 +147,6 @@ This mode disables the voltage supplied to the DUT under three operating states,
 - 2xPXIe-4151
 - 2xPXIe-4051
 
-(Note: Tested with 2 power supplies and 2 E-load's connected in parallel configuration as per the hardware setup diagram.)
 
 
 
