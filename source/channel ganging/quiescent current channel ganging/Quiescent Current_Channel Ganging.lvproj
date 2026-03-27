@@ -225,7 +225,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Quiescent Current_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A2E628F3-61C5-44EF-A808-508C0B66B48A}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Q Current_Ch Ganging.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Q Current_Ch Ganging/Q Current_Ch Ganging.exe</Property>
@@ -236,7 +236,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Q Current_Ch Ganging/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C37F92F9-3475-4BBA-848D-6D3F7C94BAE8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BD2D5642-F2DC-4DD0-859D-86B1700CA6BC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quiescent Current_Channel Ganging.lvlib/Run Service.vi</Property>
