@@ -20,7 +20,10 @@
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
 				<Item Name="niDCPower Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Close.vi"/>
 				<Item Name="niDCPower Commit With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Commit With Channels.vi"/>
+				<Item Name="niDCPower Commit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Commit.vi"/>
+				<Item Name="niDCPower Configure Current Level Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Level Range.vi"/>
 				<Item Name="niDCPower Configure Current Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Level.vi"/>
+				<Item Name="niDCPower Configure Current Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Limit Range.vi"/>
 				<Item Name="niDCPower Configure Current Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Limit.vi"/>
 				<Item Name="niDCPower Configure Digital Edge Measure Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Digital Edge Measure Trigger With Channels.vi"/>
 				<Item Name="niDCPower Configure Digital Edge Pulse Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Digital Edge Pulse Trigger With Channels.vi"/>
@@ -28,6 +31,7 @@
 				<Item Name="niDCPower Configure Digital Edge Shutdown Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Digital Edge Shutdown Trigger With Channels.vi"/>
 				<Item Name="niDCPower Configure Digital Edge Source Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Digital Edge Source Trigger With Channels.vi"/>
 				<Item Name="niDCPower Configure Digital Edge Start Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Digital Edge Start Trigger With Channels.vi"/>
+				<Item Name="niDCPower Configure Output Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Output Enabled.vi"/>
 				<Item Name="niDCPower Configure Output Function.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Output Function.vi"/>
 				<Item Name="niDCPower Configure Sense.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Sense.vi"/>
 				<Item Name="niDCPower Configure Software Edge Measure Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Software Edge Measure Trigger With Channels.vi"/>
@@ -38,9 +42,12 @@
 				<Item Name="niDCPower Configure Software Edge Start Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Software Edge Start Trigger With Channels.vi"/>
 				<Item Name="niDCPower Configure Source Mode With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Source Mode With Channels.vi"/>
 				<Item Name="niDCPower Configure Trigger With Channels (Poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Trigger With Channels (Poly).vi"/>
+				<Item Name="niDCPower Configure Voltage Level Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level Range.vi"/>
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
+				<Item Name="niDCPower Configure Voltage Limit Range.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit Range.vi"/>
 				<Item Name="niDCPower Configure Voltage Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Limit.vi"/>
 				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
+				<Item Name="niDCPower Delete Advanced Sequence With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Delete Advanced Sequence With Channels.vi"/>
 				<Item Name="niDCPower Digital Edge - Edge.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Digital Edge - Edge.ctl"/>
 				<Item Name="niDCPower Disable Pulse Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Pulse Trigger With Channels.vi"/>
 				<Item Name="niDCPower Disable Sequence Advance Trigger With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Disable Sequence Advance Trigger With Channels.vi"/>
@@ -51,12 +58,17 @@
 				<Item Name="niDCPower Get Channel Name (Poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Get Channel Name (Poly).vi"/>
 				<Item Name="niDCPower Get Channel Name From String.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Get Channel Name From String.vi"/>
 				<Item Name="niDCPower Get Channel Name.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Get Channel Name.vi"/>
+				<Item Name="niDCPower Initialize With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Channels.vi"/>
 				<Item Name="niDCPower Initialize With Independent Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Independent Channels.vi"/>
 				<Item Name="niDCPower Initiate With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initiate With Channels.vi"/>
+				<Item Name="niDCPower Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initiate.vi"/>
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
+				<Item Name="niDCPower Measure Multiple.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measure Multiple.vi"/>
 				<Item Name="niDCPower Output Function.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Output Function.ctl"/>
+				<Item Name="niDCPower Reset Device.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset Device.vi"/>
 				<Item Name="niDCPower Reset With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Reset With Channels.vi"/>
 				<Item Name="niDCPower Sense.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Sense.ctl"/>
+				<Item Name="niDCPower Set Sequence.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Set Sequence.vi"/>
 				<Item Name="niDCPower Source Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Source Mode.ctl"/>
 				<Item Name="niDCPower Wait For Event - Event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Wait For Event - Event.ctl"/>
 				<Item Name="niDCPower Wait For Event With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Wait For Event With Channels.vi"/>
@@ -169,6 +181,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -178,6 +191,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="buildTerminalName.vi" Type="VI" URL="../../../channel ganging/shared subVIs/subvi/buildTerminalName.vi"/>
+			<Item Name="Get Channel List.vi" Type="VI" URL="../../../channel ganging/shared subVIs/subvi/Get Channel List.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -185,6 +200,47 @@
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIDCPower_channel_ganging - abort.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Control/NIDCPower_channel_ganging - abort.vi"/>
+			<Item Name="NIDCPower_channel_ganging - check channel list.vi" Type="VI" URL="../../../channel ganging/shared subVIs/NIDCPower_channel_ganging - check channel list.vi"/>
+			<Item Name="NIDCPower_channel_ganging - close.vi" Type="VI" URL="../../../channel ganging/shared subVIs/NIDCPower_channel_ganging - close.vi"/>
+			<Item Name="NIDCPower_channel_ganging - commit.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Control/NIDCPower_channel_ganging - commit.vi"/>
+			<Item Name="NIDCPower_channel_ganging - confgure sequence.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - confgure sequence.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure current level range.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current level range.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure current level.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current level.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure current limit range.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current limit range.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure current limit.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure current limit.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Digital Edge Measure Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Digital Edge Measure Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Digital Edge Sequence Advance Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Digital Edge Sequence Advance Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Digital Edge Source Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Digital Edge Source Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Digital Edge Start Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Digital Edge Start Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure output function.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure output function.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure sense.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Measure/NIDCPower_channel_ganging - configure sense.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Software Edge Measure Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Software Edge Measure Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Software Edge Sequence Advance Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Software Edge Sequence Advance Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Software Edge Source Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Software Edge Source Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Software Edge Start Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Software Edge Start Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure source mode.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure source mode.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Configure Triggers (Poly).vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Configure Triggers (Poly).vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure triggers.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - configure triggers.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure voltage level range.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage level range.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure voltage level.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage level.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure voltage limit range.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage limit range.vi"/>
+			<Item Name="NIDCPower_channel_ganging - configure voltage limit.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - configure voltage limit.vi"/>
+			<Item Name="NIDCPower_channel_ganging - ctl - channel def.ctl" Type="VI" URL="../../../channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - channel def.ctl"/>
+			<Item Name="NIDCPower_channel_ganging - ctl - channel mode.ctl" Type="VI" URL="../../../channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - channel mode.ctl"/>
+			<Item Name="NIDCPower_channel_ganging - ctl - ganged config.ctl" Type="VI" URL="../../../channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - ganged config.ctl"/>
+			<Item Name="NIDCPower_channel_ganging - ctl - ganged session.ctl" Type="VI" URL="../../../channel ganging/shared subVIs/ctl/NIDCPower_channel_ganging - ctl - ganged session.ctl"/>
+			<Item Name="NIDCPower_channel_ganging - delete advanced sequence.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - delete advanced sequence.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Disable Source Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Disable Source Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - Disable Start Trigger.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - Disable Start Trigger.vi"/>
+			<Item Name="NIDCPower_channel_ganging - initialize.vi" Type="VI" URL="../../../channel ganging/shared subVIs/NIDCPower_channel_ganging - initialize.vi"/>
+			<Item Name="NIDCPower_channel_ganging - initiate.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Control/NIDCPower_channel_ganging - initiate.vi"/>
+			<Item Name="NIDCPower_channel_ganging - measure multiple.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Measure/NIDCPower_channel_ganging - measure multiple.vi"/>
+			<Item Name="NIDCPower_channel_ganging - output connected.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - output connected.vi"/>
+			<Item Name="NIDCPower_channel_ganging - output enabled.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Source/NIDCPower_channel_ganging - output enabled.vi"/>
+			<Item Name="NIDCPower_channel_ganging - reset device.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Utility/NIDCPower_channel_ganging - reset device.vi"/>
+			<Item Name="NIDCPower_channel_ganging - reset.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Utility/NIDCPower_channel_ganging - reset.vi"/>
+			<Item Name="NIDCPower_channel_ganging - wait for event.vi" Type="VI" URL="../../../channel ganging/shared subVIs/Triggers and Events/NIDCPower_channel_ganging - wait for event.vi"/>
 			<Item Name="nidmm_64.dll" Type="Document" URL="nidmm_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -212,7 +268,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Short-Circuit.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FAFF82A1-C8C3-40E2-AA5F-549554DE6B84}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Short-Circuit.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Short-Circuit_LED/NI_AB_PROJECTNAME.exe</Property>
@@ -223,7 +279,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Short-Circuit_LED/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{07D542B6-D8EE-483A-AE6B-FE5A01FB8BCA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5F6F7053-C650-4988-A457-4E3670EE6CFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Short-Circuit.lvlib/Get Measurement Details.vi</Property>

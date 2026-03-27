@@ -187,7 +187,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E22F337-7D04-459D-B87B-0EFE36BB802C}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Quiescent Current_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Q Current_PMIC/NI_AB_PROJECTNAME.exe</Property>
@@ -198,7 +198,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Q Current_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79E36464-9456-4937-9A54-57DCB0813B59}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4939BB4-DB54-428B-8B77-30F93DD432D5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quiescent Current_PMIC.lvlib/Run Service.vi</Property>
