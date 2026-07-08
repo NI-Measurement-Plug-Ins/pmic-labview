@@ -212,7 +212,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7D3A3C8D-38EA-41FC-BC58-D3C8FFFC1C22}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Point_Channel Ganging_PMIC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC/Single Point_Channel Ganging_PMIC.exe</Property>
@@ -223,7 +223,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Single Point_Channel Ganging_PMIC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{62E35100-A172-4BB8-A455-B9305C1796DE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D8DC1B03-800B-49CC-ACE9-68D1D9908E5A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Single Point_Channel Ganging.lvlib/Get Measurement Details.vi</Property>

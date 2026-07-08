@@ -268,7 +268,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Short-Circuit.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FAFF82A1-C8C3-40E2-AA5F-549554DE6B84}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Short-Circuit.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/pmic-labview/builds/Short-Circuit_LED/NI_AB_PROJECTNAME.exe</Property>
@@ -279,7 +279,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/pmic-labview/builds/Short-Circuit_LED/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F6F7053-C650-4988-A457-4E3670EE6CFD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{220C0B3F-54D7-4738-AA8C-7844EDFB27C9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Short-Circuit.lvlib/Get Measurement Details.vi</Property>
